@@ -1,30 +1,215 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    position: relative;
+width: 1440px;
+height: 1024px;
+background: #FEF4E8;
 }
 header{
-    display: flex;
-    flex-direction: row;
     
+    display: flex;
+border-radius: 16px;
+    font-weight: bold;
 }
 #logo{
-    width: 20%;
-    height: 80px;
+position: absolute;
+width: 20%;
+height: 107px;
+left: 20px;
+top: 20px;
+background: url(logo);
+border-radius: 16px
 }
 ul{
-
-   display: flex;
-   width: 75%;
+   display: inline-flex;
+   position: absolute;
+   left: 250px;  
+   padding-top: 25px;
+   font-size: 30px;
    
-   padding: 5px 40px 5px 100px;
 }
 li{
-    display:inline-block;
-    /*padding-left: 20px;*/
-    width: 75%;
- } 
+    position: relative;
+    margin-left: 150px;
+
+}
+
  #fond{
-    width:100%;
-    height: 400px; 
-    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    height: 126px;
+    top: 165px;
  }
+#recherche{
+
+position: absolute;
+
+width: 308px;
+height: 49px;
+left: 1089px;
+top: 228px;
+font-size: 25px;
+background: #E7B0F4;
+border-radius: 16px;
+}
+div{
+    
+position: relative;
+width: 1164px;
+height: 536px;
+left: 20px;
+top: 20px;
+}
+#cat1{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 138px;
+top: 337px;
+
+background: url(pasta_cat.jpg);
+border-radius: 16px;
+}
+#cat2{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 620px;
+top: 337px;
+
+background: url(asian_food_cat.jpg);
+border-radius: 16px;
+}
+#cat3{
+
+position: absolute;
+width: 200px;
+height: 150px;
+left: 1102px;
+top: 337px;
+
+background: url(veggie_cat);
+border-radius: 16px;
+}
+#cat4{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 138px;
+top: 555px;
+
+background: url(pizza_cat.jpg);
+border-radius: 16px;
+
+}
+#cat5{
+    
+position: absolute;
+width: 200px;
+height: 150px;
+left: 620px;
+top: 555px;
+
+background: url(burger.jpg);
+border-radius: 16px;
+}
+#cat6{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 1102px;
+top: 555px;
+
+background: url(salade_cat);
+border-radius: 16px;
+}
+#plat1{
+    position: absolute;
+width: 200px;
+height: 100px;
+left: 138px;
+top: 773px;
+
+background: url(spaghetti-legumes.jpg);
+border-radius: 16px;
+}
+
+#plat2{
+    
+position: absolute;
+width: 200px;
+height: 100px;
+left: 620px;
+top: 773px;
+
+background: url(lasagnes_viande);
+border-radius: 16px;
+}
+/*footer{
+     position: absolute;
+width: 556px;
+height: 73px;
+left: calc(50% - 556px/2 + 11px);
+top: 911px;
+
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}*/
+
+#plat3{
+    
+position: absolute;
+width: 200px;
+height: 100px;
+left: 1102px;
+top: 773px;
+
+background: url(cheesburger);
+border-radius: 16px;
+}
+
+#insta{
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 513px;
+top: 922px;
+
+background: url(Instagram-Icon);
+border-radius: 16px;
+}
+#face{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 646px;
+    top: 922px;
+    
+    background: url(face2.png);
+    border-radius: 16px;
+}
+#whatsapp{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 779px;
+    top: 922px;
+    
+    background: url(whatsapp.png);
+    border-radius: 16px;
+}
+#twitter{
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 912px;
+top: 922px;
+
+background: url(twitter.png);
+border-radius: 16px;
+}
