@@ -2,44 +2,45 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     position: relative;
-width: 1440px;
-height: 1024px;
+
 background: #FEF4E8;
 }
 header{
-    
-    display: flex;
-border-radius: 16px;
-    font-weight: bold;
+display: flex;
+font-weight: bold;
+
 }
 #logo{
-position: absolute;
+position: relative;
 width: 20%;
 height: 107px;
 left: 20px;
 top: 20px;
-background: url(logo);
+
+object-fit: cover;
 border-radius: 16px
 }
 ul{
    display: inline-flex;
-   position: absolute;
-   left: 250px;  
+   position: relative;
+   width: 100%;
+   
    padding-top: 25px;
    font-size: 30px;
    
 }
 li{
     position: relative;
-    margin-left: 150px;
+    margin-left: 200px;
 
 }
 
  #fond{
     position: absolute;
     width: 100%;
-    height: 126px;
-    top: 165px;
+    height: 200px;
+    top: 150px;
+    object-fit: cover ;
  }
 #recherche{
 
@@ -48,50 +49,41 @@ position: absolute;
 width: 308px;
 height: 49px;
 left: 1089px;
-top: 228px;
+top: 278px;
 font-size: 25px;
-background: #E7B0F4;
+
 border-radius: 16px;
 }
-div{
-    
-position: relative;
-width: 1164px;
-height: 536px;
-left: 20px;
-top: 20px;
+
+
+
+#ligne1{
+display: flex;
+
+justify-content:center;
+
 }
 #cat1{
-    position: absolute;
-width: 200px;
-height: 150px;
-left: 138px;
-top: 337px;
 
-background: url(pasta_cat.jpg);
+padding:50px ;
+margin-top: 250px;
 border-radius: 16px;
 }
+
 #cat2{
-    position: absolute;
-width: 200px;
-height: 150px;
-left: 620px;
-top: 337px;
-
-background: url(asian_food_cat.jpg);
-border-radius: 16px;
+    padding:50px ;
+    margin-top: 250px;
+    border-radius: 16px;
 }
+
 #cat3{
 
-position: absolute;
-width: 200px;
-height: 150px;
-left: 1102px;
-top: 337px;
+    padding-right:150px ;
+    margin-top: 250px;
+    border-radius: 16px;
 
-background: url(veggie_cat);
-border-radius: 16px;
 }
+/*
 #cat4{
     position: absolute;
 width: 200px;
@@ -146,17 +138,6 @@ top: 773px;
 background: url(lasagnes_viande);
 border-radius: 16px;
 }
-/*footer{
-     position: absolute;
-width: 556px;
-height: 73px;
-left: calc(50% - 556px/2 + 11px);
-top: 911px;
-
-
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 16px;
-}*/
 
 #plat3{
     
@@ -169,6 +150,17 @@ top: 773px;
 background: url(cheesburger);
 border-radius: 16px;
 }
+footer{
+  
+    border:2px solid ;
+    height: 70px;
+    width: 485px;
+    margin-top:385px;
+    margin-left: 485px;
+    border-radius: 16px;
+    box-shadow:20px ;
+    background-color: aliceblue;
+}
 
 #insta{
 
@@ -176,7 +168,7 @@ position: absolute;
 width: 50px;
 height: 50px;
 left: 513px;
-top: 922px;
+top: 942px;
 
 background: url(Instagram-Icon);
 border-radius: 16px;
@@ -187,7 +179,7 @@ border-radius: 16px;
     width: 50px;
     height: 50px;
     left: 646px;
-    top: 922px;
+    top: 942px;
     
     background: url(face2.png);
     border-radius: 16px;
@@ -197,7 +189,7 @@ border-radius: 16px;
     width: 50px;
     height: 50px;
     left: 779px;
-    top: 922px;
+    top: 942px;
     
     background: url(whatsapp.png);
     border-radius: 16px;
@@ -208,8 +200,101 @@ position: absolute;
 width: 50px;
 height: 50px;
 left: 912px;
-top: 922px;
+top: 942px;
 
 background: url(twitter.png);
+border-radius: 16px;
+}*/
+/***********************************Page Cathegorie************************************/
+#precedent{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 138px;
+    top: 778px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 16px;
+    
+    }
+    #suivant{
+    
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 1055px;
+    top: 778px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 16px;
+    
+    }
+
+/***********************************Page Plats************************************/
+
+
+#plat11{
+position: absolute;
+width: 200px;
+height: 150px;
+left: 138px;
+top: 337px;
+
+background: url(pasta_cat.jpg);
+border-radius: 16px;
+}
+#plat12{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 620px;
+top: 337px;
+
+background: url(asian_food_cat.jpg);
+border-radius: 16px;
+}
+#plat13{
+
+position: absolute;
+width: 200px;
+height: 150px;
+left: 1102px;
+top: 337px;
+
+background: url(veggie_cat);
+border-radius: 16px;
+}
+#plat14{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 138px;
+top: 555px;
+
+background: url(pizza_cat.jpg);
+border-radius: 16px;
+
+}
+#plat15{
+    
+position: absolute;
+width: 200px;
+height: 150px;
+left: 620px;
+top: 555px;
+
+background: url(burger.jpg);
+border-radius: 16px;
+}
+#plat16{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 1102px;
+top: 555px;
+
+background: url(salade_cat);
 border-radius: 16px;
 }
