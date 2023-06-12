@@ -1,300 +1,402 @@
-html{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     position: relative;
 
-background: #FEF4E8;
+    background: #FEF4E8;
 }
-header{
-display: flex;
-font-weight: bold;
+
+header {
+    display: flex;
+    font-weight: bold;
 
 }
-#logo{
-position: relative;
-width: 20%;
-height: 107px;
-left: 20px;
-top: 20px;
 
-object-fit: cover;
-border-radius: 16px
-}
-ul{
-   display: inline-flex;
-   position: relative;
-   width: 100%;
-   
-   padding-top: 25px;
-   font-size: 30px;
-   
-}
-li{
+#logo {
     position: relative;
-    margin-left: 200px;
+    width: 20%;
+    height: 100px;
+    margin-top: 20px;
+
+
+    object-fit: cover;
+    border-radius: 16px
+}
+
+ul {
+    display: inline-flex;
+    position: relative;
+    padding-top: 10px;
+    font-size: 30px;
 
 }
 
- #fond{
-    position: absolute;
+li {
+    position: relative;
+    padding-inline: 80px;
+
+}
+
+#fond {
+
     width: 100%;
     height: 200px;
-    top: 150px;
-    object-fit: cover ;
- }
-#recherche{
-
-position: absolute;
-
-width: 308px;
-height: 49px;
-left: 1089px;
-top: 278px;
-font-size: 25px;
-
-border-radius: 16px;
+    margin-top: 20px;
+    object-fit: cover;
 }
 
+#recherche {
 
+    position: absolute;
 
-#ligne1{
-display: flex;
+    width: 308px;
+    height: 49px;
+    left: 1089px;
+    top: 278px;
+    font-size: 25px;
 
-justify-content:center;
-
-}
-#cat1{
-
-padding:50px ;
-margin-top: 250px;
-border-radius: 16px;
-}
-
-#cat2{
-    padding:50px ;
-    margin-top: 250px;
     border-radius: 16px;
 }
 
-#cat3{
 
-    padding-right:150px ;
-    margin-top: 250px;
+#ligne1 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+
+}
+
+#cat1 {
+    position: relative;
+    left: 60px;
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+#cat2 {
+
+    width: 300px;
+    height: 200px;
+
+    border-radius: 16px;
+}
+
+#cat3 {
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    right: 60px;
     border-radius: 16px;
 
 }
-/*
-#cat4{
-    position: absolute;
-width: 200px;
-height: 150px;
-left: 138px;
-top: 555px;
 
-background: url(pizza_cat.jpg);
-border-radius: 16px;
+#ligne2 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
 
 }
-#cat5{
-    
-position: absolute;
-width: 200px;
-height: 150px;
-left: 620px;
-top: 555px;
 
-background: url(burger.jpg);
-border-radius: 16px;
-}
-#cat6{
-    position: absolute;
-width: 200px;
-height: 150px;
-left: 1102px;
-top: 555px;
+#cat4 {
+    position: relative;
+    left: 60px;
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
 
-background: url(salade_cat);
-border-radius: 16px;
-}
-#plat1{
-    position: absolute;
-width: 200px;
-height: 100px;
-left: 138px;
-top: 773px;
-
-background: url(spaghetti-legumes.jpg);
-border-radius: 16px;
 }
 
-#plat2{
-    
-position: absolute;
-width: 200px;
-height: 100px;
-left: 620px;
-top: 773px;
+#cat5 {
 
-background: url(lasagnes_viande);
-border-radius: 16px;
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
 }
 
-#plat3{
-    
-position: absolute;
-width: 200px;
-height: 100px;
-left: 1102px;
-top: 773px;
-
-background: url(cheesburger);
-border-radius: 16px;
+#cat6 {
+    position: relative;
+    width: 300px;
+    width: 300px;
+    height: 200px;
+    right: 60px;
+    border-radius: 16px;
 }
-footer{
-  
-    border:2px solid ;
+
+#ligne3 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+#plat1 {
+    position: relative;
+    left: 60px;
+    width: 300px;
+    height: 150px;
+    border-radius: 16px;
+
+}
+
+#plat2 {
+
+    width: 300px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+#plat3 {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    right: 60px;
+    border-radius: 16px;
+}
+
+
+
+footer {
+
+    position: relative;
+    display: inline-flex;
+    border: 2px solid;
     height: 70px;
     width: 485px;
-    margin-top:385px;
-    margin-left: 485px;
+    top: 60px;
+    bottom: 30px;
+    left: 480px;
     border-radius: 16px;
-    box-shadow:20px ;
+    box-shadow: 20px;
     background-color: aliceblue;
+
+
 }
 
-#insta{
+#insta {
 
-position: absolute;
-width: 50px;
-height: 50px;
-left: 513px;
-top: 942px;
-
-background: url(Instagram-Icon);
-border-radius: 16px;
-}
-#face{
-
-    position: absolute;
+    position: relative;
+    left: 20px;
     width: 50px;
     height: 50px;
-    left: 646px;
-    top: 942px;
-    
-    background: url(face2.png);
+    margin-left: 30px;
+    margin-right: 30px;
+    top: 10px;
     border-radius: 16px;
 }
-#whatsapp{
-    position: absolute;
+
+#face {
+    position: relative;
+    margin-right: 30px;
+    margin-left: 30px;
+    top: 10px;
     width: 50px;
     height: 50px;
-    left: 779px;
-    top: 942px;
-    
-    background: url(whatsapp.png);
     border-radius: 16px;
 }
-#twitter{
 
-position: absolute;
-width: 50px;
-height: 50px;
-left: 912px;
-top: 942px;
+#whatsapp {
+    position: relative;
+    margin-right: 30px;
+    margin-left: 30px;
+    top: 10px;
 
-background: url(twitter.png);
-border-radius: 16px;
-}*/
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+}
+
+#twitter {
+
+    position: relative;
+    margin-right: 30px;
+    margin-left: 30px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+}
+/***********Effet de zoom en survolant les catégories de la page accueil*****************/
+.survol1 {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.survol1:hover {
+
+    transform: scale(1.2);
+}
+
+.survol2 {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.survol2:hover {
+
+    transform: scale(1.2);
+}
+
+.survol3 {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.survol3:hover {
+
+    transform: scale(1.2);
+}
+
+.survol4 {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.survol4:hover {
+
+    transform: scale(1.2);
+}
+
+.survol5 {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.survol5:hover {
+
+    transform: scale(1.2);
+}
+
+.survol6 {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.survol6:hover {
+
+    transform: scale(1.2);
+}
+
 /***********************************Page Cathegorie************************************/
-#precedent{
-    position: absolute;
+#precedent {
+    position: relative;
     width: 250px;
     height: 80px;
-    left: 138px;
-    top: 778px;
+    left: 110px;
+    top: 30px;
     font-size: 30px;
     font-weight: bold;
     background-color: aliceblue;
     border-radius: 16px;
-    
-    }
-    #suivant{
-    
-    position: absolute;
+
+}
+
+#suivant {
+
+    position: relative;
     width: 250px;
     height: 80px;
-    left: 1055px;
-    top: 778px;
+    left: 850px;
+    top: 30px;
     font-size: 30px;
     font-weight: bold;
     background-color: aliceblue;
     border-radius: 16px;
-    
-    }
+
+}
 
 /***********************************Page Plats************************************/
-
-
-#plat11{
-position: absolute;
-width: 200px;
-height: 150px;
-left: 138px;
-top: 337px;
-
-background: url(pasta_cat.jpg);
-border-radius: 16px;
+#ligne11 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
-#plat12{
-    position: absolute;
-width: 200px;
-height: 150px;
-left: 620px;
-top: 337px;
 
-background: url(asian_food_cat.jpg);
-border-radius: 16px;
+#plat11 {
+    position: relative;
+    left: 60px;
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
 }
-#plat13{
 
-position: absolute;
-width: 200px;
-height: 150px;
-left: 1102px;
-top: 337px;
+#plat12 {
 
-background: url(veggie_cat);
-border-radius: 16px;
+    width: 300px;
+    height: 200px;
+
+    border-radius: 16px;
 }
-#plat14{
-    position: absolute;
-width: 200px;
-height: 150px;
-left: 138px;
-top: 555px;
 
-background: url(pizza_cat.jpg);
-border-radius: 16px;
+#plat13 {
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    right: 60px;
+    border-radius: 16px;
 
 }
-#plat15{
-    
-position: absolute;
-width: 200px;
-height: 150px;
-left: 620px;
-top: 555px;
 
-background: url(burger.jpg);
-border-radius: 16px;
+#ligne22 {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
-#plat16{
-    position: absolute;
-width: 200px;
-height: 150px;
-left: 1102px;
-top: 555px;
 
-background: url(salade_cat);
-border-radius: 16px;
+#plat14 {
+    position: relative;
+    left: 60px;
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+#plat15 {
+
+    width: 300px;
+    height: 200px;
+
+    border-radius: 16px;
+}
+
+#plat16 {
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    right: 60px;
+    border-radius: 16px;
+
 }

@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fil Rouge</title>
+    <!--Integration de la feuille de style Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<header>
-    <img id="logo" src="img/logo.png" alt="image du logo" title="image du logo">
-    <ul type="none">
-        <li><a href="">Accueil</a></li>
-        <li><a href="">Catégorie</a></li>
-        <li><a href="">Plats</a></li>
-        <li><a href="">Contact</a></li>
-    </ul>
-</header>
-<nav>
-    <img id="fond" src="img/fond2.png" alt="image nom de réstaurant" titre="image nom de réstaurant">
-</nav>
-<div>
-    <img id="cat1" src="img/category/Entrées/brochettes_de_saumon.jpg" alt="image catégorie des entrées" title="image catégorie des entrées">
-    <img id="cat2" src="img/category/Plats principaux/jardinniere-quinoa.jpg" alt="image catégorie des plats principaux" title="image catégorie des plats principaux"">
-    <img id="cat3" src="img/category/Sandwichs/sandwich-vietnamien.jpg" alt="image catégorie des sandwichs" title="image catégorie des sandwichs">
-    <img id="cat4" src="img/category/Soupes et potages/potage-de-carottes.jpg" alt="image catégorie des soupes" title="image catégorie des soupes">
-    <img id="cat5" src="img/category/Desserts/creme_glacee.jpg" alt="image catégorie des desserts" title="image catégorie des desserts">
-    <img id="cat6" src="img/category/Boissons et coocktails/cafe-flambé.jpg" alt="image catégorie boissons" title="image catégorie des boissons">
-    <input type="button" name="precedent" id="precedent" value="Précédent">
-    <input type="button" name="suivant" id="suivant" value="Suivant">
-</div>
-<footer>
-    <img id="insta" src="img/Instagram-Icon.png" alt="image de logo instagram" title="image de logo instagram">
-    <img id="face" src="img/face.png" alt="image de logo facebook" title="image de logo facebook">
-    <img id="whatsapp" src="img/whatsapp.png" alt="image de logo whatsapp" title="image de logo whatsapp">
-    <img id="twitter" src="img/twitter.png" alt="image de logo twitter" title="image de logo twitter">
-</footer>
 
+<body>
+    <header>
+        <img id="logo" src="img/logo.png" alt="image du logo" title="image du logo">
+        <ul type="none">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="categorie.html">Catégorie</a></li>
+            <li><a href="plats.html">Plats</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+    <nav class="cotainer-fluid">
+        <img id="fond" src="img/fond2.png" alt="image nom de réstaurant" titre="image nom de réstaurant">
+    </nav>
+
+    <div>
+        <div id="ligne1">
+            <img id="cat1" src="img/category/Entrées/brochettes_de_saumon.jpg" alt="image catégorie des entrées"
+                title="image catégorie des entrées">
+            <img id="cat2" src="img/category/Plats principaux/jardinniere-quinoa.jpg"
+                alt="image catégorie des plats principaux" title="image catégorie des plats principaux">
+            <img id="cat3" src="img/category/Sandwichs/sandwich-vietnamien.jpg" alt="image catégorie des sandwichs" title="image catégorie des sandwichs">
+        </div>
+        <div id="ligne2">
+            <img id="cat4" src="img/category/Soupes et potages/potage-de-carottes.jpg" alt="image catégorie des soupes"
+                title="image catégorie des soupes">
+            <img id="cat5" src="img/category/Desserts/creme_glacee.jpg" alt="image catégorie des desserts"
+                title="image catégorie des desserts">
+            <img id="cat6" src="img/category/Boissons et coocktails/cafe-flambé.jpg" alt="image catégorie boissons"
+                title="image catégorie des boissons">
+        </div>
+        <input type="button" name="precedent" id="precedent" value="Précédent">
+        <input type="button" name="suivant" id="suivant" value="Suivant">
+    </div>
+    <footer>
+        <img id="insta" src="img/Instagram-Icon.png" alt="image de logo instagram" title="image de logo instagram">
+        <img id="face" src="img/face.png" alt="image de logo facebook" title="image de logo facebook">
+        <img id="whatsapp" src="img/whatsapp.png" alt="image de logo whatsapp" title="image de logo whatsapp">
+        <img id="twitter" src="img/twitter.png" alt="image de logo twitter" title="image de logo twitter">
+    </footer>
+    
+    <!--Integration des scripts Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
