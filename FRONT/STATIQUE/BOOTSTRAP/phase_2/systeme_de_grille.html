@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>systeme de grille</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-1">Une première colonne de 1 blocs</div> 
+            <div class="col-4">Une seconde colonne de 4 blocs  12 colonnes précédentes ont été occupées</div>
+            <div class="col-6">Une troisième colonne de 6 blocs, sur une 2e ligne puisque les 12 colonnes précédentes ont été occupées</div>
+            <div class="col">Une quatrième colonne, occupant la largeur disponible sur la ligne en cours, soit 6 blocs</div>
+        </div>
+    </div> 
+    <!--Deuxieme exemple-->
+    <div class="container"> 
+        <div class="row">
+            <div class="col-8">Une première colonne de 8 blocs bla bla bla bla bla bla </div> 
+            <div class="col-4">Une seconde colonne de 4 blocs</div>
+            <div class="col-6">Une troisième colonne de 6 blocs, sur une 2e ligne puisque les 12 colonnes précédentes ont été occupées</div>
+            <div class="col">Une quatrième colonne, occupant la largeur disponible sur la ligne en cours, soit 6 blocs</div>
+        </div>
+    </div> 
+<!-- 
+Il existe de nombreuses possibilités de découpe, le total de blocs utilisés devant toujours être égal à 12. Par exemple :
+
+    3 colonnes de 4 blocs
+    6 colonnes de 2 blocs
+    2 colonnes de 6 blocs
+    1 colonne de 7 blocs et 1 colonne de 5 blocs etc.
+-->
+<div class="=container">
+    <div class="row">
+        <div class="col">
+            1 sur 2
+        </div>
+        <div class="col">
+            2 sur 2
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            1 sur 3
+        </div>
+        <div class="col">
+            2 sur 3
+        </div>
+        <div class="col">
+            3 sur 3
+        </div>
+    </div>
+</div>
+<!--Affichage responsive: Toute la "magie" de Bootstrap est ici ! 
+    Nous allons mettre en oeuvre les points de rupture, ou breakpoints. -->
+    <div class="container"> 
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-7 col-lg-8 col-xl-9">Colonne 1</div> 
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">Colonne 2</div> 
+        </div>
+    </div>  
+<!--Masquer une zonne-->
+<div class="d-none d-sm-block">
+    Ce bloc sera masqué par défaut, pour tout (d-none).
+    L'affichage sera rétabli à partir de -sm, c'est-à-dire pour les écrans plus grands que 576px.
+    Cela signifie plus généralement que la zone sera masquée pour les mobiles, mais visible pour tous les écrans plus larges.
+</div>
+
+<div class="d-lg-none d-xl-block">
+    Ce bloc sera masqué à partir de la plage de breakpoints -lg (>= 992px), puis rétabli à partir des écrans -xl, soit à partir de 1199px.
+    En-dessous de la plage -lg (jusqu'à 991px), la zone sera donc visible aussi !
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>

@@ -44,15 +44,13 @@ li {
     margin-top: 20px;
     object-fit: cover;
 }
-
 #recherche {
 
-    position: absolute;
-
+    position: relative;
     width: 308px;
     height: 49px;
-    left: 1089px;
-    top: 278px;
+    left: 1380px;
+    bottom: 70px;
     font-size: 25px;
 
     border-radius: 16px;
@@ -71,7 +69,7 @@ li {
 
 #cat1 {
     position: relative;
-    left: 60px;
+    left: 150px;
     width: 300px;
     height: 200px;
     border-radius: 16px;
@@ -90,7 +88,7 @@ li {
     position: relative;
     width: 300px;
     height: 200px;
-    right: 60px;
+    right: 150px;
     border-radius: 16px;
 
 }
@@ -107,7 +105,7 @@ li {
 
 #cat4 {
     position: relative;
-    left: 60px;
+    left: 150px;
     width: 300px;
     height: 200px;
     border-radius: 16px;
@@ -126,7 +124,7 @@ li {
     width: 300px;
     width: 300px;
     height: 200px;
-    right: 60px;
+    right: 150px;
     border-radius: 16px;
 }
 
@@ -141,7 +139,7 @@ li {
 
 #plat1 {
     position: relative;
-    left: 60px;
+    left: 150px;
     width: 300px;
     height: 150px;
     border-radius: 16px;
@@ -159,9 +157,9 @@ li {
     position: relative;
     width: 300px;
     height: 150px;
-    right: 60px;
+    right: 150px;
     border-radius: 16px;
-}
+} 
 
 
 
@@ -182,7 +180,7 @@ footer {
 
 }
 
-#insta {
+#insta { 
 
     position: relative;
     left: 20px;
@@ -226,90 +224,26 @@ footer {
     border-radius: 16px;
 }
 /***********Effet de zoom en survolant les catégories de la page accueil*****************/
-.survol1 {
+.survol{ 
     position: relative;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    
-}
-
-.survol1:hover {
-
-    transform: scale(1.2);
-}
-
-.survol2 {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width:100%;
+    width:100%;
     overflow: hidden;
 }
 
-.survol2:hover {
+.survol:hover {
 
     transform: scale(1.2);
 }
 
-.survol3 {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.survol3:hover {
-
-    transform: scale(1.2);
-}
-
-.survol4 {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.survol4:hover {
-
-    transform: scale(1.2);
-}
-
-.survol5 {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.survol5:hover {
-
-    transform: scale(1.2);
-}
-
-.survol6 {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.survol6:hover {
-
-    transform: scale(1.2);
-}
 
 /***********************************Page Cathegorie************************************/
 #precedent {
     position: relative;
     width: 250px;
     height: 80px;
-    left: 110px;
+    left: 150px;
     top: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -323,7 +257,7 @@ footer {
     position: relative;
     width: 250px;
     height: 80px;
-    left: 850px;
+    left: 1140px;
     top: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -343,7 +277,7 @@ footer {
 
 #plat11 {
     position: relative;
-    left: 60px;
+    left: 150px;
     width: 300px;
     height: 200px;
     border-radius: 16px;
@@ -362,7 +296,7 @@ footer {
     position: relative;
     width: 300px;
     height: 200px;
-    right: 60px;
+    right: 150px;
     border-radius: 16px;
 
 }
@@ -377,7 +311,7 @@ footer {
 
 #plat14 {
     position: relative;
-    left: 60px;
+    left: 150px;
     width: 300px;
     height: 200px;
     border-radius: 16px;
@@ -396,7 +330,7 @@ footer {
     position: relative;
     width: 300px;
     height: 200px;
-    right: 60px;
+    right: 150px;
     border-radius: 16px;
 
 }
