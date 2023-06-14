@@ -9,9 +9,30 @@
     height: 200px;
     object-fit: cover;
 }
-.reseau{
+.survol{ 
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.survol:hover {
+
+    transform: scale(1.2);
+}
+/*.contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}*/
+body{
+    background-color: aliceblue;
+
+}
+
+/*.reseau{
     width: 50px;
     height: auto;
     margin-left: 30px;
     object-fit: cover;
-}
+}*/
