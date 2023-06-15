@@ -19,12 +19,13 @@
 
     transform: scale(1.2);
 }
-/*.contenu{
-    display: flex;
+.contenu{
+    display: block;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}*/
+}
 body{
     background-color: aliceblue;
 
