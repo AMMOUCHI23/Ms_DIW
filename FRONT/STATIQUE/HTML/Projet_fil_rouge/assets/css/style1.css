@@ -43,7 +43,7 @@
 
 .parallax{
 
-background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://www.codeur.com/tuto/wp-content/uploads/2022/02/p1.jpg") center center fixed no-repeat;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/home/ammouchi/Bureau/abdallah/FRONT/STATIQUE/HTML/Projet_fil_rouge/fil_rouge.jpg")  center center fixed no-repeat;
 background-size: cover;
 height:auto;
 }
@@ -59,3 +59,9 @@ parallax2 {
     margin-left: 30px;
     object-fit: cover;
 }*/
+.video1{
+position: relative;
+right: 0;
+bottom: 0;
+
+}
