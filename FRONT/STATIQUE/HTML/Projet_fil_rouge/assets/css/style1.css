@@ -43,7 +43,7 @@
 
 .parallax{
 
-background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("C:/Users/AMMOUCHI/Desktop/fil_rouge.jpg")  center center fixed no-repeat;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/home/ammouchi/Bureau/abdallah/FRONT/STATIQUE/HTML/Projet_fil_rouge/fil_rouge.jpg")  center center fixed no-repeat;
 background-size: cover;
 height:auto;
 }
@@ -59,6 +59,17 @@ parallax2 {
     margin-left: 30px;
     object-fit: cover;
 }*/
+.object-fit.cover {
+  responsive: true;
+  property: object-fit;
+    contain: contain;
+    cover: cover;
+    fill: fill;
+    scale: scale-down;
+    none: none;
+    width: 100px;
+}
+
 .video1{
 position: relative;
 right: 0;
