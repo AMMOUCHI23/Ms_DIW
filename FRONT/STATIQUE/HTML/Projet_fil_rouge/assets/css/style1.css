@@ -49,16 +49,8 @@ height:auto;
 }
 /*parallax {
     background-image: url("/home/ammouchi/Bureau/abdallah/FRONT/STATIQUE/HTML/Projet_fil_rouge/fil_rouge.jpg");
-  }
-parallax2 {
-    background-image: url("fil_rouge.jpg");
   }*/
-/*.reseau{
-    width: 50px;
-    height: auto;
-    margin-left: 30px;
-    object-fit: cover;
-}*/
+
 form{
     font-family: Georgia, 'Times New Roman', Times, serif ;
     font-size: 20px;
@@ -74,4 +66,17 @@ form{
     color:black;
     font-size: 25px;
     transform: translate(50%, 50%);
+}
+.categorie{
+    font-size: 20px;
+     font-weight: 600;
+     color: white;
+}
+.categorie1{
+    font-size: 25px;
+     font-weight:600 ;
+     color:black;
+}
+#quantite{
+    width: 35px;
 }
