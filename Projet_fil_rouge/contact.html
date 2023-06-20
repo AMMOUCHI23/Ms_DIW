@@ -56,9 +56,9 @@
     <form method="post" action="" id="form1" class="row g-3 my-5 ms-3">
         <div class="row justify-content-center">
             <div class="col-md-4 my-3">
-                <label for="inputNom" class="form-label"><strong>Nom</strong></label>
+                <label for="inputNom" class="form-label">Nom</label>
                 <input type="text" class="form-control" id="inputNom">
-                <p Ce class="c_obligatoire">Ce champs est obligatoire.</p>
+                <p id="nom_inv" style="color: red;" ></p>
             </div>
             <div class="col-md-4 my-3">
                 <label for="inputPrenom" class="form-label">Prénom</label>
@@ -70,13 +70,14 @@
         <div class="row justify-content-center">
             <div class="col-md-4 my-3">
 
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
+                <p id="email_inv" style="color: red;" ></p>
             </div>
             <div class="col-md-4 my-3">
                 <label for="inputTelephone" class="form-label">Téléphone</label>
                 <input type="tel" class="form-control" id="inputTelephone">
-                <p class="c_obligatoire">Ce champs est obligatoire.</p>
+                <p id="telephone_inv" style="color: red;" ></p>
             </div>
         </div>
     </div>
@@ -84,6 +85,7 @@
         <div class="col-md-8 my-3">
         <label for="text" class="">Votre demande</label> 
         <textarea class="form-control" placeholder="Votre demande..." id="floatingTextarea2" style="height: 100px"></textarea>
+        <p id="text_inv" style="color: red;" ></p>
         </div>
         </div>
     </div>
