@@ -1,4 +1,45 @@
 console.log("Je suis connecté...!  :)");
+
+document.forms["contact"].addEventListener("submit", function (e) {
+	var inputs = this;
+	var nom_v=/^[a-zA-Z\s]+$/;
+	var email_v=/^\w+@[a-zA-Z_-]+?\.[a-zA-Z]{2,3}$/;
+	
+	var telephone_v=/^(0[1-68])(?:[ _.-]?(\d{2})){4}$/;
+	e.preventDefault();
+	if (nom_v.test(this["nom"].value.trim() )== false) {
+		document.getElementById("nom_inv").innerHTML = "Nom invalide";
+	}
+	else if (nom_v.test(this["prenom"].value.trim() )== false) {
+		document.getElementById("prenom_inv").innerHTML = "Prenom invalide";
+	}
+	else if (email_v.test(this["email"].value.trim() )== false) {
+		document.getElementById("email_inv").innerHTML = "Email invalide";
+	}
+	else if (telephone_v.test(this["telephone"].value.trim() )== false) {
+		document.getElementById("telephone_inv").innerHTML = "Numéro de téléphone invalide";
+	}
+
+     else {
+	  alert("Formulaire envoyé")
+         }
+});
+
+/*	for (let i = 0; i < inputs.length; i++) {
+		 if(!inputs[i].value){
+			ereur="veuillez renseigner tout les champs";
+
+		 }
+		
+	}
+	if (ereur){
+		e.preventDefault();
+		document.getElementById("erreur").innerHTML= erreur;
+	}else{
+		alert("Formulaire envoyé");
+	}
+})*/
+
 /*document.getElementById("form1").addEventListener("submit", function (f) {
     var nom = document.getElementById("inputNom");
 	var nom_inv=document.getElementById("nom_inv");
@@ -49,14 +90,3 @@ console.log("Je suis connecté...!  :)");
 
 
 })*/
-document.getElementById("form1").addEventListener("submit", function (f){
-	var ereur;
-	var inputs=document.getElementsByTagName("input");
-	for (let i = 0; i < inputs.length; i++) {
-	     if(!inputs[i].value){
-			ereur="veuillez renseigner tout les champs";
-
-		 }
-		
-	}
-})

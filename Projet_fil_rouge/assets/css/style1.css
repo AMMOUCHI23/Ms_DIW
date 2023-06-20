@@ -55,7 +55,7 @@ form{
     font-family: Georgia, 'Times New Roman', Times, serif ;
     font-size: 20px;
 }
-.c_obligatoire{
+#obligatoire{
     color: red;
     font-size: 15px;
 }
@@ -67,7 +67,7 @@ form{
     font-size: 25px;
     transform: translate(50%, 50%);
 }
-.categorie{
+#categorie{
     font-size: 20px;
      font-weight: 600;
      color: white;
