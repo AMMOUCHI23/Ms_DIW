@@ -4,36 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fil Rouge</title>
+    <title>Jarditou</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style1.css">
+
 </head>
 
 <body>
+    <div class="card-header d-none d-md-block">
+        <div class="row justify-content-between">
+            <div class="col-md-3">
+                <img src="assets/img/jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou" width="400"
+                    height="100">
+            </div>
+            <div class="col-md-3 pt-3 mt-5 display-6">
+                <p>Tout le jardin</p>
+            </div>
+        </div>
+    </div>
 
 
-    <nav class="p_navbar navbar  navbar-expand-lg bg-danger-subtle">
 
-        <div class="container-fluid text-uppercase mx-4 py-3   ">
-            <img  src="assets/media/img/fond.png" class="img-responsive" id="logo">
+
+    <nav class="p_navbar navbar  navbar-expand-lg bg-body-secondary">
+
+        <div class="container-fluid text-uppercase mx-4 py-3 ">
+            <a class="navbar-brand" href="#">jarditou.com</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto  mb-lg-0 nav-fill pe-5 ">
+                <ul class="navbar-nav me-auto  mb-lg-0 nav-fill pe-5 ">
 
                     <li class="nav-item px-2 ">
                         <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link active" aria-current="page" href="categorie.html">Catégorie</a>
+                        <a class="nav-link active" aria-current="page" href="tableau.html">Tableau</a>
                     </li>
-                    <li class="nav-item px-2 ">
-                        <a class="nav-link active" aria-current="page" href="plats.html">Plats</a>
-                    </li>
+
                     <li class="nav-item px-2">
                         <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
                     </li>
@@ -47,3 +58,87 @@
             </div>
         </div>
     </nav>
+    <div class="card mb-0">
+        <img src="assets/img/promotion.jpg" class="card-img-top " alt="Image promotion">
+    </div>
+
+    <form action="" class="form-control mt-3 mx-3">
+        <p>* Ces zones sont obligatoires</p>
+        <h1>Vos Coordonnées</h1>
+        <div class="mb-3">
+            <label for="nom" class="form-label">Nom*</label>
+            <input type="text" class="form-control" id="nom" placeholder="Veuillez saisir votre nom">
+        </div>
+        <div class="mb-3">
+            <label for="prenom" class="form-label">Prénom*</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Veuillez saisir votre nom">
+        </div>
+        <div class="col-2 mb-3">
+            <label for="prenom" class="form-label">Sexe*</label><br>
+            <input class="form-check-input" type="radio" class="form-control" id="feminin">Féminin
+            <input class="form-check-input"type="radio" class="form-control" id="masculin">Masculin
+        </div>
+        <div class="mb-3">
+            <label for="naissance" class="form-label">Date de naissance*</label>
+            <input type="date" class="form-control" id="naissance" placeholder="jj/mm/aaaa">
+        </div>
+        <div class="mb-3">
+            <label for="cdp" class="form-label">Code postal*</label>
+            <input type="text" class="form-control" id="cdp">
+        </div>
+        <div class="mb-3">
+            <label for="naissance" class="form-label">Adresse</label>
+            <input type="text" class="form-control" id="adresse">
+        </div>
+        <div class="mb-3">
+            <label for="ville" class="form-label">Ville</label>
+            <input type="text" class="form-control" id="naissance">
+        </div>
+        <div class="mb-3">
+            <label for="naissance" class="form-label">Email*</label>
+            <input type="email" class="form-control" id="email" placeholder="dave.loper@afpa.fr">
+        </div>
+
+        <h1>Votre demande</h1>
+          
+        <div class="mb-3">
+            <label for="sujet" class="form-label">Sujet</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Veuillez sélectionner un sujet</option>
+              <option value="Mes commandes">Mes commandes</option>
+              <option value="Question sur un produit">Question sur un produit</option>
+              <option value="Reclamation">Réclamation</option>
+              <option value="Autres">Autres</option>
+            </select>
+         </div>
+         <div >
+            <label for="question">Votre Question*</label>
+            <textarea class="form-control" placeholder="Veuillez sélectionner un sujet" id="sujet"></textarea>
+           
+          </div>
+    </form>
+
+    <nav class="navbar navbar-expand-lg  bg-body-secondary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Mentions légales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Horaires</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Plan de site</a>
+                    </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
