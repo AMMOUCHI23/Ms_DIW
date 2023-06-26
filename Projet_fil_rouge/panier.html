@@ -9,26 +9,41 @@
 </head>
 <body>
     <section class="container flex" id="basket">
-        <div class="row">
-            <div class="col">
-                <h3 id="titre_panier">Veuillez ajouter des produits au panier <br>
-                Pas de produit</h3>
+        <div class="flex-start" id="titrePanier">
+      
+                <h2 id="titre-panier">Le panier est vide <br>
+                  Veuillez ajouter des plats au panier </h2>
+          </div>
+          <div class="flex-arround" id="basket-fiche">
+               <div id="injectjs">
+                <div class="flex-arround" id="basketProduit">
+                <div id="blocImage">
+                  <img src=" assets/media/img/burger.jpg" alt="">
+                </div>
+                <div class="flex-colum-arround " id="blocProduit">
+                  <h2>produit</h2>
+                  <p>vernis</p>
+                  <p>5 E</p>
+                </div>  
+                
+              </div>
 
-            </div>
-            </div>
+               </div>
+          </div>
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Image</th>
-                    <th scope="col">Produit</th>
-                    <th scope="col">Prix</th>
+                    <th >Nom du plat</th>
+                    <th >Quantté</th>
+                    <th >Prix</th>
+                    <th>Prix</th>
+                    <th class="col-2">Quantité</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td><img src="assets/media/img/burger.jpg" alt="" srcset=""></td>
+                    <td><img src="assets/media/img/burgerz.jpg" alt="" srcset="" width="100" height="70"></td>
                     <td>Otto</td>
                     <td>@mdo</td>
                   </tr>
