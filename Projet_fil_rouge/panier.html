@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="assets/javascript/panier.js"></script>
     <title>Mon panier</title>
 </head>
 <body>
@@ -13,39 +12,27 @@
       
                 <h2 id="titre-panier">Le panier est vide <br>
                   Veuillez ajouter des plats au panier </h2>
-          </div>
-          <div class="flex-arround" id="basket-fiche">
-               <div id="injectjs">
-                <div class="flex-arround" id="basketProduit">
-                <div id="blocImage">
-                  <img src=" assets/media/img/burger.jpg" alt="">
-                </div>
-                <div class="flex-colum-arround " id="blocProduit">
-                  <h2>produit</h2>
-                  <p>vernis</p>
-                  <p>5 E</p>
-                </div>  
-                
-              </div>
-
-               </div>
-          </div>
+        
             <table class="table">
                 <thead>
                   <tr>
+                    <th>Image du plat</th>
                     <th >Nom du plat</th>
                     <th >Quantté</th>
                     <th >Prix</th>
-                    <th>Prix</th>
-                    <th class="col-2">Quantité</th>
+                    <th>Total</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
-                    <td><img src="assets/media/img/burgerz.jpg" alt="" srcset="" width="100" height="70"></td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <th scope="row"><img src="assets/media/img/burger.jpg" alt="" srcset="" width="100" height="70"></th>
+                    <td>Burger</td>
+                    <td><div class="d-grid gap-2 d-md-block">
+                      <button class="btn btn-primary" type="button">-</button>
+                      <input type="text" placeholder="0">
+                      <button class="btn btn-primary" type="button">+</button>
+                    </div></td>
+                    <td>7.00 € </td>
                   </tr>
                   
                 </tbody>
@@ -53,6 +40,7 @@
 
         </div>
     </section>
-
+    
+    <script src="assets/javascript/panier.js"></script>
 </body>
 </html>

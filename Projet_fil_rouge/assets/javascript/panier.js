@@ -2,10 +2,10 @@ console.log("Je suis connecté! :)");
 /* function qui permet d'enregestrer le panier dans localstrage
  Localstorage permet d'enregestrer que des chaines de caracteres ou des entiers... ,
   c'est pour ça on utilise la notaion en chaine de caractere avec Json*/
-
-function saveBasket(basket){
-    localStorage.setItem("basket", JSON.stringify(basket));
-}
+  let basket=document.querySelector(".ajauter-panier");
+  basket.addEventListener("click", function(basket){
+      localStorage.setItem("basket", JSON.stringify(basket));
+  })
 
 //Fonction qui permet de recupérer ce que on a enregestré dans localStorage
 
