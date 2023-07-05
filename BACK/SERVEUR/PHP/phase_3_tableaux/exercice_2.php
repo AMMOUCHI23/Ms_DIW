@@ -88,10 +88,10 @@
 
                     <?php
                     ksort($capitales);
-                    foreach ($capitales as $key => $value) {
+                    foreach ($capitales as $capitale => $pays) {
                         echo '<tr>';
-                        echo '<td>' . $key . '</td>';
-                        echo '<td>' . $value . '</td>';
+                        echo '<td>' . $capitale . '</td>';
+                        echo '<td>' . $pays . '</td>';
                         echo '</tr>';
                     }
                     ?>
@@ -103,16 +103,19 @@
                 <h3 class=" mt-5"><small>2.Liste des pays (par ordre alphabétique) suivie du nom de la capitale</small></h3>
                 <table class="table table-warning   table-hover text-center ">
                     <tr>
-                        <th>Capitale</th>
                         <th>Pays</th>
+                        <th>Capitales</th>
                     </tr>
 
                     <?php
-                    ksort($capitales);
-                    foreach ($capitales as $key => $value) {
+                  $capitales= array_flip ($capitales);
+                  ksort($capitales);
+                   
+
+                    foreach ($capitales as $capitale =>$pays ) {
                         echo '<tr>';
-                        echo '<td>' . $value . '</td>';
-                        echo '<td>' . $key . '</td>';
+                        echo '<td>' .$capitale.'</td>';
+                        echo '<td>' .$pays. '</td>';
                         echo '</tr>';
                     }
                     ?>
@@ -136,7 +139,8 @@
                     </tr>
 
                     <?php
-    ksort($capitales);
+     $capitales= array_flip ($capitales);
+     ksort($capitales);
     array_splice($capitales, 5, 9);
     foreach ($capitales as $key => $value) {
         echo '<tr>';

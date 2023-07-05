@@ -8,10 +8,18 @@
 </head>
 <body>
     <?php
+    //Ouvrir une session
     session_start();
     $_SESSION["login"]="webmaster";
-    $_SESSION["role"] = "admin";
+    $_SESSION["password"]="Formation";
+    echo $_SESSION["login"]."<br>";
+    echo $_SESSION["password"]."<br>";
     echo"- session ID : ".session_id();
+
+
+    //$_SESSION["role"] = "admin";
+
+    //echo"- session ID : ".session_id();
     
     ?>
     
