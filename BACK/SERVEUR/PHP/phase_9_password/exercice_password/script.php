@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if($_SESSION["auth"]!="ok"){
+if(@$_SESSION["auth"]!="ok"){
     header("Location:login.php");
     
     
@@ -16,7 +16,7 @@ if($_SESSION["auth"]!="ok"){
     <title>formulaire d'authentification</title>
 </head>
 <body>
-    <h2>Page 2</h2>
+    <h2>Bonjour <?php echo $_SESSION["nomPrenom"] ?></h2>
     <p>Félécitation vous étes authentifié avec succès</p>
     
 </body>
