@@ -7,6 +7,9 @@
     <title>Mon panier</title>
 </head>
 <body>
+<?php
+    require_once("header.php");
+  ?>
     <section class="container flex" id="basket">
         <div class="flex-start" id="titrePanier">
       
@@ -40,6 +43,9 @@
 
         </div>
     </section>
+    <?php
+  require_once("footer.php");
+  ?>
     
     <script src="assets/javascript/panier.js"></script>
 </body>
