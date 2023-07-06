@@ -8,9 +8,9 @@ if (isset($connecter)) {
     $erreur = "Nom non valide";
   } elseif (!preg_match("/^[a-zA-Z \-éèê.@]+$/", $prenom)) {
     $erreur = "Prénom non valide";
-  } elseif (empty($email)) {
+  } elseif (!preg_match("/^[a-zA-Z0-9.-_]+@{1}[a-zA-Z_-]+[.]{1}[a-zA-Z]{2,3}$/",$email)) {
     $erreur = "email non valide";
-  } elseif (!preg_match("/^[a-zA-Z \-éèê]+$/", $pass)) {
+  } elseif (!preg_match("/^(?=.* ?[A-Z])(?=.* ?[a-z])(?=.* ?[0-9]).{8,15}$/", $pass)) {
     $erreur = "Mot de passe non valide";
   } elseif (empty($cpass)) {
     $erreur = "Mots de passe non identiques";
@@ -34,6 +34,7 @@ if (isset($connecter)) {
 </head>
 
 <body>
+  <h1  style="color:blue;"class="mx-3 mt-5">Inscription</h1>
   <form action="" method="post">
     <div class="row g-3">
       <div class="col-md-3 mx-3 mt-5">
@@ -60,11 +61,11 @@ if (isset($connecter)) {
         <input type="password" class="form-control" name="cpass" id="inputPassword">
       </div>
 
-      <div class="col-12 mx-3 text-center">
+      <div class="col-12 mx-3 mx-3 mt-3">
         <button type="submit" class="btn btn-lg btn-primary" name="connecter" value="">se connecter</button>
       </div>
       <?php if (!empty($erreur)) { ?>
-        <div id="message"><?php echo $erreur ?></div>
+        <div class="mx-3" id="message" style="color: red;"><?php echo $erreur ?></div>
       <?php } ?>
     </div>
     </div>

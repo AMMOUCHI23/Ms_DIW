@@ -32,6 +32,7 @@ if (isset($connecter)) {
 </head>
 
 <body>
+<h1  style="color:blue;"class="mx-3 mt-5">Authentification</h1>
   <form action="" method="post" class="row g-3">
     <div class="col-md-3 mx-3 mt-5">
       <label for="inputEmail4" class="form-label">Email</label>
@@ -46,7 +47,7 @@ if (isset($connecter)) {
       <button type="submit" class="btn btn-primary" name="connecter" value="">se connecter</button>
     </div>
     <?php if (!empty($erreur)) { ?>
-      <div id="message"><?php echo $erreur ?></div>
+      <div class="mx-3" id="message" style="color: red; "><?php echo $erreur ?></div>
     <?php } ?>
    
     </div>

@@ -9,12 +9,12 @@
 <body>
 <table class="table table-info table-hover">
         <tr>
-            <th>Prenom</th>
-            <th>Nom</th>
-            <th>Adresse mail</th>
-            <th>Adresse IP</th>
-            <th>City</th>
-            <th>Etat</th>
+            <th>Prénoms</th>
+            <th>Noms</th>
+            <th>Adresses mails</th>
+            <th>Adresses IP</th>
+            <th>Ville</th>
+            <th>Etats</th>
         
         </tr>
     <?php 

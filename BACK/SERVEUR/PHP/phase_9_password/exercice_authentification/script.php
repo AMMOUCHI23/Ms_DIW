@@ -16,7 +16,7 @@ if($_SESSION["auth"]!="ok"){
     <title>formulaire d'authentification</title>
 </head>
 <body>
-    <h2>Page 2</h2>
+<h1  style="color:blue;"class="mx-3 mt-5">Nouvelle page</h1>
     <p>Félécitation vous étes authentifié avec succès</p>
     
 </body>
