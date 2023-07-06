@@ -40,10 +40,14 @@
     align-items: center;
     height: 100vh;
 }*/
-
+/*section{
+    background-image: url("/Users/AMMOUCHI/Desktop/fil_rouge.jpg");
+    background-size: cover;
+}
+*/
 .parallax{
 
-background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/home/ammouchi/Bureau/abdallah/Projet_fil_rouge/assets/media/img/fil_rouge.jpg")   center fixed no-repeat;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/Users/AMMOUCHI/Desktop/fil_rouge.jpg")  center fixed no-repeat;
 background-size: cover;
 height:auto;
 }
