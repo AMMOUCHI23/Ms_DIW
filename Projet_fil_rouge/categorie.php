@@ -17,39 +17,39 @@
     
     <div class="container text-center">
         <div class="row justify-content-center ">
-            <div class="col-justify-content  col-sm-6 col-md-4 my-4">
-                <img id="cat1" class="img-fluid rounded " src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg"
-                 width="300px" height="200px" alt="image catégorie des entrées" title="image catégorie des entrées">
+            <div class="col-justify-content  col-sm-6 col-md-4 my-5 survol">
+           <a href="plats_categorie_entree.php"> <img id="cat1" class="img-fluid rounded " src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg"
+                 width="300px" height="200px" alt="image catégorie des entrées" title="image catégorie des entrées"></a>
                  <p class="categorie1 ">Nos Entrées</p>
-                </div>
-            <div class="col-12  col-sm-6  col-md-4 my-4">
-                <img class="img-fluid rounded " id="cat2"
+            </div>
+            <div class="col-12  col-sm-6  col-md-4 my-5 survol">
+                <a href=""><img class="img-fluid rounded " id="cat2"
                     src="assets/media/img/category/Plats principaux/jardinniere-quinoa.jpg" width="300px" height="200px"
-                    alt="image catégorie des plats principaux" title="image catégorie des plats principaux">
+                    alt="image catégorie des plats principaux" title="image catégorie des plats principaux"></a>
                     <p class="categorie1  ">Nos Plats Principaux</p>
                 </div>
-            <div class="col-12 col-sm-6  col-md-4 my-4">
-                <img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg"
+            <div class="col-12 col-sm-6  col-md-4 my-5 survol">
+                <a href=""><img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg"
                     width="300px" height="200px" alt="image catégorie des sandwichs"
-                    title="image catégorie des sandwichs">
+                    title="image catégorie des sandwichs"></a>
                     <p class="categorie1 ">Nos Sandwichs</p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 my-4">
-                <img class="img-fluid rounded " id="cat3"
+            <div class="col-12 col-sm-6 col-md-4 my-5 survol">
+                <a href=""><img class="img-fluid rounded " id="cat3"
                     src="assets/media/img/category/Soupes et potages/potage-de-carottes.jpg" width="300px" height="200px"
-                    alt="image catégorie des soupes" title="image catégorie des soupes">
+                    alt="image catégorie des soupes" title="image catégorie des soupes"></a>
                     <p class="categorie1 ">Nos Soupes</p>
             </div>
-            <div class="col-12 col-sm-6  col-md-4 my-4">
-                <img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Desserts/creme_glacee.jpg"
+            <div class="col-12 col-sm-6  col-md-4 my-4 5 survol">
+                <a href=""><img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Desserts/creme_glacee.jpg"
                     width="300px" height="200px" alt="image catégorie des desserts"
-                    title="image catégorie des desserts">
+                    title="image catégorie des desserts"></a>
                     <p class="categorie1 ">Nos Desserts</p>
             </div>
-            <div class="col-12 col-sm-6  col-md-4 my-4">
-                <img class="img-fluid rounded " id="cat3"
+            <div class="col-12 col-sm-6  col-md-4 my-4 5 survol">
+                <a href=""><img class="img-fluid rounded " id="cat3"
                     src="assets/media/img/category/Boissons et coocktails/cafe-flambé.jpg" width="300px" height="200px"
-                    alt="image catégorie boissons" title="image catégorie des boissons">
+                    alt="image catégorie boissons" title="image catégorie des boissons"></a>
                     <p class="categorie1 ">Nos Boissons</p>
             </div>
 
