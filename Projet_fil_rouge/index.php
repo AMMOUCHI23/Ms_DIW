@@ -71,7 +71,7 @@
                 <div class="col">
                     <!--<img class="img-fluid rounded" id="fond" src="assets/img/fond2.png" alt="image nom de réstaurant"
                     titre="image nom de réstaurant">-->
-                    <video src="assets/media/video/nos_plats.mp4" loop class="object-fit-cover" autoplay width="100%" height="300px"></video>
+                    <video src="assets/media/video/nos_plats.mp4" loop class="object-fit-fill" autoplay width="100%" height="300px"></video>
 
 
                     </video>
@@ -113,13 +113,13 @@
                     <a href="plats_categorie_boissons.php"> <img class="img-fluid rounded " id="cat6" src="assets/media/img/category/Boissons et coocktails/cafe-flambé.jpg" width="300px" height="200px" alt="image catégorie boissons" title="image catégorie des boissons"></a>
                     <p class="categorie">Nos Boissons</p>
                 </div>
-                <div class="text-white text-fluid fst-italic col-12  col-md-5 my-4 py-5">
-                    <h1 class="fs-2">The District</h1>
-                    <h3>Au cœur d'Amiens, notre Restaurant Gastronomique propose une cuisine raffinée, élaborée à partir de produits locaux et de saison. </h3>
+                <div class="description text-white redressed   text-capitalize fst-italic  justify-content-center align-items-center col-12  col-md-5 my-4 py-5">
+                    <h1 class="fs-2 bg-danger">The District</h1>
+                    <h3 >Au cœur d'Amiens, notre Restaurant Gastronomique propose une cuisine raffinée, élaborée à partir de produits locaux et de saison. </h3>
 
                 </div>
 
-                <div id="carouselExampleAutoplaying" class="carousel slide col-12 col-md-5 my-4" data-bs-ride="carousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide justify-content-center col-10 col-md-5 my-4" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/media/img/category/Desserts/tarte-rhubarbe.jpg" class="img-fluid rounded d-block w-100" alt="...">

@@ -30,7 +30,7 @@
               <h5 class="my-3">Ingrédients </h5>
               <p> sauce mexicaine, poitrine de poulet, oignon, ail, cumin moulu, coriandre moulue, sel et poivre du moulin.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>
-              <a href="plats_categorie_sandwich.html" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
+              <a href="plats_categorie_sandwich.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
                 <a href="#" class="btn btn-lg btn-success  ms-md-5 " >Passer la commande <command></a>
             </div>
         </div>

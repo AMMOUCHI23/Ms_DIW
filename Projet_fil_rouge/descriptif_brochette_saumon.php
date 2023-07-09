@@ -29,7 +29,7 @@
               <h5 class="mt-3">Ingrédients </h5>
               <p>Filet de saumon, oignon vert, feuilles d'aneth,crème épaisse, citron,huile d'olive, set et poivre du moulin</p>
               <a href="#" class="btn btn-primary">Ajouter au panier</a><br>
-              <a href="plats_categorie_entree.html" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
+              <a href="plats_categorie_entree.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
                 <a href="#" class="btn btn-lg btn-success  ms-md-5 " >Passer la commande <command></a>
             </div>
         </div>

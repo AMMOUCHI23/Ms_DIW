@@ -29,7 +29,7 @@
               <h5 class="my-3">Ingrédients </h5>
               <p> Pâte feuilletée, beurre salé,d’ail, oignon, tomates cerises, sucre, formage Baluchon, œuf, basilic, sel et poivre de moulin.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>
-              <a href="plats_categorie_entree.html" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
+              <a href="plats_categorie_entree.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
                 <a href="#" class="btn btn-lg btn-success  ms-md-5 " >Passer la commande <command></a>
             </div>
         </div>

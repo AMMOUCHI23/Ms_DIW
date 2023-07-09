@@ -30,7 +30,7 @@
               <h5 class="my-3">Ingrédients </h5>
               <p>Poitrine de poulet, beurre, orange, dattes, abricots séchés, gingembre, bouillon de poulet, crème, fécule de mais, sel et poivron du moulin.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>
-              <a href="plats_catégorie_plats_principaux.html" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
+              <a href="plats_catégorie_plats_principaux.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
                 <a href="#" class="btn btn-lg btn-success  ms-md-5 " >Passer la commande <command></a>
             </div>
         </div>
