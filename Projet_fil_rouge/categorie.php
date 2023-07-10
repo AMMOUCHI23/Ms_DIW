@@ -59,7 +59,7 @@
     <div class="container d-none  d-md-block ">
         <div class="row text-center my-5 ">
             <div class="col-6">
-                <button type="button" class="btn btn-primary btn-lg">Précédent</button>
+                <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Précédent</button></a>
             </div>
             <div class="col-6">
                 <button type="button" class="btn btn-primary btn-lg">Suivant</button>

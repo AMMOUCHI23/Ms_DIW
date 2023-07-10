@@ -82,6 +82,7 @@ form{
      font-weight:600 ;
      color:black;
 }
-#quantite{
+.quantite{
     width: 45px;
+    background-color: white;
 }

@@ -25,7 +25,9 @@
                     <h5 class="card-title">Boulettes farcie</h5>
                     <a href="descriptif_boulettes_farcie.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_boulettes_farcies">9.00 €</p> 
-                    <a href="#" class="btn btn-primary">Ajouter au panier</a>
+                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                 <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
+                    <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
             </div>
 
@@ -35,7 +37,9 @@
                     <h5 class="card-title">Courgettes farcies</h5>
                     <a href="descriptif_courgette_farcie.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_boulettes_farcies">9.00 €</p> 
-                    <a href="#" class="btn btn-primary">Ajouter au panier</a>
+                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                 <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
+                    <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
@@ -44,7 +48,9 @@
                     <h5 class="card-title">Jardinniere quinoa</h5>
                     <a href="descriptif_jardinniere quinoa.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_boulettes_farcies">9.00 €</p> 
-                    <a href="#" class="btn btn-primary">Ajouter au panier</a>
+                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                 <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
+                    <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
@@ -53,7 +59,9 @@
                     <h5 class="card-title">Pàte chinois</h5>
                     <a href="descriptif_pate_chinois.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_boulettes_farcies">9.00 €</p> 
-                    <a href="#" class="btn btn-primary">Ajouter au panier</a>
+                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                 <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
+                    <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
@@ -62,7 +70,9 @@
                     <h5 class="card-title">Poulet en sauce</h5>
                     <a href="descriptif_pollet.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_boulettes_farcies">9.00 €</p> 
-                    <a href="#" class="btn btn-primary">Ajouter au panier</a>
+                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                 <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
+                    <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
             </div>
 
@@ -72,7 +82,9 @@
                     <h5 class="card-title">Saumon wellington</h5>
                     <a href="descriptif_saumon.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_boulettes_farcies">9.00 €</p> 
-                    <a href="#" class="btn btn-primary">Ajouter au panier</a>
+                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                 <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
+                    <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
             </div>
 
@@ -80,10 +92,10 @@
 
 
     </div>
-    <div class="container d-none  ">
+    <div class="container d-none d-md-block ">
         <div class="row text-center my-5 ">
             <div class="col-6">
-                <button type="button" class="btn btn-primary btn-lg">Précédent</button>
+            <a href="categorie.php"> <button type="button" class="btn btn-primary btn-lg">Précédent</button></a>
             </div>
             <div class="col-6">
                 <button type="button" class="btn btn-primary btn-lg">Suivant</button>

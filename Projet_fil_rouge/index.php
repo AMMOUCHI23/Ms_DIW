@@ -114,7 +114,7 @@
                     <p class="categorie">Nos Boissons</p>
                 </div>
                 <div class="description text-white redressed   text-capitalize fst-italic  justify-content-center align-items-center col-12  col-md-5 my-4 py-5">
-                    <h1 class="fs-2 bg-danger">The District</h1>
+                    <h1 class="fs-2 bg-danger" id="change-position">The District</h1>
                     <h3 >Au cœur d'Amiens, notre Restaurant Gastronomique propose une cuisine raffinée, élaborée à partir de produits locaux et de saison. </h3>
 
                 </div>
@@ -162,7 +162,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
+ 
 
 </body>
 

@@ -1,0 +1,39 @@
+#boite {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    background-color: #0000FF;
+  
+}
+@keyframes change-position {
+    0% { 
+      background-color: aqua; top: 0px; left: 0px; 
+    }
+    25% { 
+        background-color:red; top: 0; left: 200px;
+    }
+    50% { 
+        background-color:yellow; top: 0px; left: 400px;
+    }
+    75% { 
+        background-color:blue; top: 0px; left: 200px;
+    }
+    100% { 
+        background-color:red; top: 0; left: 0px;
+    }
+  
+}
+  
+  #boite {
+
+    animation-name:change-position;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+  }

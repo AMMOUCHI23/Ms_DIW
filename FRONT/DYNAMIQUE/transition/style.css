@@ -1,0 +1,50 @@
+
+/*#boite {
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+  
+  #boite:hover {
+    font-size: 36px;
+  }*/
+  
+/*#boite {
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+    transition: width 2s ease-out;
+}
+
+#boite:hover {
+    width: 600px;
+}*/
+/*#boite {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #0000FF;
+    transition: width 2s, height 2s, background-color 2s, transform 5s;
+}
+
+#boite:hover {
+    background-color: #FFCCCC;
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg);
+}*/
+#boite{
+    font-size: 20px;
+    width:100px;
+    height: 100px;
+    background-color: yellow;
+    transition: 5s width 1s ease,  5s background-color 1s ease , 5s font-size 1s  ease;
+}
+#boite:hover{
+    font-size: 50px;
+    width: 500px;
+    background-color: blue;
+}
