@@ -25,7 +25,7 @@
                 <h2>Saumon wellington</h2>
                 <h4 class="py-3">9.00 €</h4>
                 <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
-              <input type="number" class="text-center" placeholder="1" name="quantite" id="quantite">
+              <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
               <h5 class="my-3">Ingrédients </h5>
               <p>Saumon, beurre, poireau, épinard, ail, fromage, ciboulette, muscade,  pâte feuilletée, œuf, sel et poivron du moulin.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>

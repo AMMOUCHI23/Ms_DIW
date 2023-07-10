@@ -25,7 +25,7 @@
                 <h2>Sandwich à la viende fumée </h2>
                 <h4 class="py-3">7.90 €</h4>
                 <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
-              <input type="number" class="text-center" placeholder="1" name="quantite" id="quantite">
+              <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
               <h5 class="my-3">Ingrédients </h5>
               <p>viande fumée, pain de seigle, moutarde à l’ancienne, et  poivre concassé.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>

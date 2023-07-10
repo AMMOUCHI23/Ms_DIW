@@ -25,7 +25,7 @@
                 <h2>Brochettes de soumon </h2>
                 <h4 class="py-3">8.00 €</h4>
                 <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
-              <input type="number" class="text-center" placeholder="1" name="quantite" id="quantite">
+              <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
               <h5 class="mt-3">Ingrédients </h5>
               <p>Filet de saumon, oignon vert, feuilles d'aneth,crème épaisse, citron,huile d'olive, set et poivre du moulin</p>
               <a href="#" class="btn btn-primary">Ajouter au panier</a><br>
