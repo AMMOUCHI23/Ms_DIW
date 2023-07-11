@@ -34,19 +34,19 @@
                     title="image catégorie des sandwichs"></a>
                     <p class="categorie1 ">Nos Sandwichs</p>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 my-5 survol">
+            <div class="col-12 col-sm-6 col-md-4 my-4 survol">
                 <a href="plats_categorie_soupes.php"><img class="img-fluid rounded " id="cat3"
                     src="assets/media/img/category/Soupes et potages/potage-de-carottes.jpg" width="300px" height="200px"
                     alt="image catégorie des soupes" title="image catégorie des soupes"></a>
                     <p class="categorie1 ">Nos Soupes</p>
             </div>
-            <div class="col-12 col-sm-6  col-md-4 my-4 5 survol">
+            <div class="col-12 col-sm-6  col-md-4 my-4  survol">
                 <a href="plats_categorie_desserts.php"><img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Desserts/creme_glacee.jpg"
                     width="300px" height="200px" alt="image catégorie des desserts"
                     title="image catégorie des desserts"></a>
                     <p class="categorie1 ">Nos Desserts</p>
             </div>
-            <div class="col-12 col-sm-6  col-md-4 my-4 5 survol">
+            <div class="col-12 col-sm-6  col-md-4 my-4  survol">
                 <a href="plats_categorie_boissons.php"><img class="img-fluid rounded " id="cat3"
                     src="assets/media/img/category/Boissons et coocktails/cafe-flambé.jpg" width="300px" height="200px"
                     alt="image catégorie boissons" title="image catégorie des boissons"></a>

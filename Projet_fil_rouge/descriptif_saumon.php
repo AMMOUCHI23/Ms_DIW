@@ -22,11 +22,11 @@
                 <img src="assets/media/img/category/Plats principaux/saumon-wellington.jpg" class="card-img-top" alt="...">
             </div>
             <div class="col-md-5 mx-3">
-                <h2>Saumon wellington</h2>
+                <h2 class="text-primary">Saumon wellington</h2>
                 <h4 class="py-3">9.00 €</h4>
                 <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
               <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
-              <h5 class="my-3">Ingrédients </h5>
+              <h5 class="text-primary mt-3">Ingrédients :</h5>
               <p>Saumon, beurre, poireau, épinard, ail, fromage, ciboulette, muscade,  pâte feuilletée, œuf, sel et poivron du moulin.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>
               <a href="plats_catégorie_plats_principaux.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>

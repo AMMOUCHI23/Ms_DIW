@@ -22,11 +22,11 @@
                 <img src="assets/media/img/category/Sandwichs/sandwich_en_viande_fumee.jpg" class="card-img-top" alt="...">
             </div>
             <div class="col-md-5 mx-3">
-                <h2>Sandwich à la viende fumée </h2>
+                <h2 class="text-primary">Sandwich à la viende fumée </h2>
                 <h4 class="py-3">7.90 €</h4>
                 <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
               <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
-              <h5 class="my-3">Ingrédients </h5>
+              <h5 class="text-primary mt-3">Ingrédients :</h5>
               <p>viande fumée, pain de seigle, moutarde à l’ancienne, et  poivre concassé.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>
               <a href="plats_categorie_sandwich.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>

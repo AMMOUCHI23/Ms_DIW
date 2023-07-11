@@ -18,13 +18,13 @@
     <form method="post" action="" name="contact" class="row g-3 my-5 ms-3">
         <div class="row justify-content-center">
             <div class="col-md-4 my-3">
-                <label for="inputNom" class="form-label">Nom*</label>
-                <input type="text" class="form-control" name="nom" id="inputNom">
+                <label for="inputNom" class="form-label">Nom<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="nom" id="inputNom" placeholder="votre nom">
                 <p id="nom_inv" style="color: red;"></p>
             </div>
             <div class="col-md-4 my-3">
-                <label for="inputPrenom" class="form-label">Prénom*</label>
-                <input type="text" class="form-control" name="prenom" id="inputPrenom">
+                <label for="inputPrenom" class="form-label">Prénom<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="prenom" id="inputPrenom" placeholder="votre prénom">
                 <p id="prenom_inv" style="color: red;"></p>
             </div>
         </div>
@@ -32,24 +32,24 @@
         <div class="row justify-content-center">
             <div class="col-md-4 my-3">
 
-                <label for="inputEmail" class="form-label">Email*</label>
-                <input type="email" class="form-control" name="email" id="inputEmail">
+                <label for="inputEmail" class="form-label">Email<span class="text-danger">*</span></label>
+                <input type="email" class="form-control" name="email" id="inputEmail" placeholder="toto@hotmail.fr">
                 <p id="email_inv" style="color: red;"></p>
             </div>
             <div class="col-md-4 my-3">
-                <label for="inputTelephone" class="form-label">Téléphone*</label>
-                <input type="tel" class="form-control" name="telephone" id="inputTelephone">
+                <label for="inputTelephone" class="form-label">Téléphone<span class="text-danger">*</span></label>
+                <input type="tel" class="form-control" name="telephone" id="inputTelephone" placeholder="06 80 80 80 80">
                 <p id="telephone_inv" style="color: red;"></p>
             </div>
         </div>
         </div>
         <div class="row  justify-content-center">
             <div class="col-md-8 my-3">
-                <label for="text" class="">Votre demande*</label>
+                <label for="text" class="">Votre demande<span class="text-danger">*</span></label>
                 <textarea class="form-control" placeholder="Votre demande..." name="text" id="floatingTextarea2"
                     style="height: 100px"></textarea>
                 <p id="text_inv" style="color: red;"></p>
-                <p id="obligatoire"> * Champs Obligatoires</p>
+                <p id="obligatoire"> <span class="text-danger">*</span> Champs Obligatoires</p>
             </div>
         </div>
         </div>

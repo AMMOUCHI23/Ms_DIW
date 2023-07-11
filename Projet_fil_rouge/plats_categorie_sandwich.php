@@ -75,7 +75,7 @@
             </div>
 
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-               <a href="de"> <img src="assets/media/img/category/Sandwichs/sandwich_en_viande_fumee.jpg" class="card-img-top" alt="..."></a>
+               <a href="descriptif_sandwich_viandefum.php"> <img src="assets/media/img/category/Sandwichs/sandwich_en_viande_fumee.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Sandwich à la viande fumée</h5>
                     <a href="descriptif_sandwich_viandefum.html"><small class="card-text " id="sandwich_en_viande_fumee">Cliquer pour plus de détails</small> </a>

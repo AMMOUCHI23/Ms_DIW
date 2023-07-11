@@ -1,10 +1,10 @@
 console.log("Je suis connecté...!  :)");
 
 document.forms["contact"].addEventListener("submit", function (e) {
-    const inputs = this;
+    
 	const nom_v=/^[a-zA-Z\s]+$/;
-	const email_v=/^[a-zA-Z0-9.-_]+@{1}[a-zA-Z_-]+[.]{1}[a-zA-Z]{2,3}$/;
-	const telephone_v=/^0[1-9]{9}$/;
+	const email_v=/^[a-zA-Z0-9.\-_]+@{1}[a-zA-Z_-]+[.]{1}[a-zA-Z]{2,3}$/;
+	const telephone_v=/^0{1}[1-9]{9}$/;
 	const text_v=/^[a-zA-Z\s]{1,300}$/;
 	
 	if (nom_v.test(this["nom"].value.trim() )== false) {
@@ -18,7 +18,7 @@ document.forms["contact"].addEventListener("submit", function (e) {
 	
     if (nom_v.test(this["prenom"].value.trim() )== false) {
 		e.preventDefault();
-		document.getElementById("prenom_inv").innerHTML = "Prenom invalide";
+		document.getElementById("prenom_inv").innerHTML = "Prénom invalide";
 	}
 	else {
 		document.getElementById("prenom_inv").innerHTML = "";

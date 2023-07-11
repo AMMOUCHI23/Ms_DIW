@@ -23,11 +23,11 @@
                 <img src="assets/media/img/category/Sandwichs/hotdog_a_la_choucroute.jpg" class="card-img-top" alt="...">
             </div>
             <div class="col-md-5 mx-3">
-                <h2>Hot-dog à la choucroute</h2>
+                <h2 class="text-primary">Hot-dog à la choucroute</h2>
                 <h4 class="py-3">6.80 €</h4>
                 <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
               <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
-              <h5 class="my-3">Ingrédients </h5>
+              <h5 class=" text-primary mt-3 ">Ingrédients : </h5>
               <p>Pains à hot-dog, beurre, farine, lait, formage, piment, saucisses, choucroute, ketchup, moutarde, sel et poivre du moulin.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>
               <a href="plats_categorie_sandwich.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>

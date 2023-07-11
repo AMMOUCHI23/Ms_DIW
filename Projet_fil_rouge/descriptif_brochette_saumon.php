@@ -22,11 +22,11 @@
                 <img src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg" class="card-img-top" alt="...">
             </div>
             <div class="col-md-5 mx-3">
-                <h2>Brochettes de soumon </h2>
+                <h2 class="text-primary">Brochettes de soumon </h2>
                 <h4 class="py-3">8.00 €</h4>
                 <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
               <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
-              <h5 class="mt-3">Ingrédients </h5>
+              <h5 class="text-primary mt-3">Ingrédients : </h5>
               <p>Filet de saumon, oignon vert, feuilles d'aneth,crème épaisse, citron,huile d'olive, set et poivre du moulin</p>
               <a href="#" class="btn btn-primary">Ajouter au panier</a><br>
               <a href="plats_categorie_entree.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
