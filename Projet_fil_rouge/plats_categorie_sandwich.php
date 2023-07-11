@@ -18,7 +18,7 @@
     <div class="container text-center ">
         <div class="row justify-content-center ">
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Sandwichs/guédille_au_homard.png" class="card-img-top" alt="...">
+                <a href="descriptif_guedille.php"><img src="assets/media/img/category/Sandwichs/guédille_au_homard.png" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Guédille au homard</h5>
                     <a href="descriptif_guedille.php"><small class="card-text " id="guédille_au_homard">Cliquer pour plus de détails</small> </a>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Sandwichs/hotdog_a_la_choucroute.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_hotdog.php"><img src="assets/media/img/category/Sandwichs/hotdog_a_la_choucroute.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Hotdog à la choucroute</h5>
                     <a href="descriptif_hotdog.php"><small class="card-text " id="hotdog_a_la_choucroute">Cliquer pour plus de détails</small> </a>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Sandwichs/pate-crabe.jpg" class="card-img-top "  alt="...">
+                <a href="descriptif_pates_crabes.php"><img src="assets/media/img/category/Sandwichs/pate-crabe.jpg" class="card-img-top "  alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Paté crabes</h5>
                     <a href="descriptif_pates_crabes.php"><small class="card-text " id="pate-crabe">Cliquer pour plus de détails</small> </a>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Sandwichs/sandwich-poulet.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_sandwich_poulet.php"><img src="assets/media/img/category/Sandwichs/sandwich-poulet.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Sandwich au poulet</h5>
                     <a href="descriptif_sandwich_poulet.php"><small class="card-text " id="sandwich-poulet">Cliquer pour plus de détails</small> </a>
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg" class="card-img-top" alt="...">
+               <a href="descriptif_sandwich_veitnamien.php"> <img src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Sandwich vietnamien</h5>
                     <a href="descriptif_sandwich_veitnamien.php"><small class="card-text " id="sandwich-vietnamien">Cliquer pour plus de détails</small> </a>
@@ -75,7 +75,7 @@
             </div>
 
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Sandwichs/sandwich_en_viande_fumee.jpg" class="card-img-top" alt="...">
+               <a href="de"> <img src="assets/media/img/category/Sandwichs/sandwich_en_viande_fumee.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Sandwich à la viande fumée</h5>
                     <a href="descriptif_sandwich_viandefum.html"><small class="card-text " id="sandwich_en_viande_fumee">Cliquer pour plus de détails</small> </a>

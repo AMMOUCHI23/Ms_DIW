@@ -15,15 +15,6 @@
   require_once("header.php");
   ?>
     
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <div class="col">
-                <img class="img-fluid rounded" id="fond" src="assets/media/img/fond2.png" alt="image nom de réstaurant"
-                    titre="image nom de réstaurant">
-            </div>
-        </div>
-    </div>
-    
       <div class="contenaire mt-5 mx-3">
         <div class="row justify-content-center">
             <div class="col-md-4 mx-3">

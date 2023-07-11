@@ -20,7 +20,7 @@
     <div class="container text-center ">
         <div class="row justify-content-center ">
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Plats principaux/boulettes_farcies.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_boulettes_farcie.php"><img src="assets/media/img/category/Plats principaux/boulettes_farcies.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Boulettes farcie</h5>
                     <a href="descriptif_boulettes_farcie.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Plats principaux/courgettes-farcies-au-riz-sauvage.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_courgette_farcie.php"><img src="assets/media/img/category/Plats principaux/courgettes-farcies-au-riz-sauvage.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Courgettes farcies</h5>
                     <a href="descriptif_courgette_farcie.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Plats principaux/jardinniere-quinoa.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_jardinniere quinoa.php"><img src="assets/media/img/category/Plats principaux/jardinniere-quinoa.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Jardinniere quinoa</h5>
                     <a href="descriptif_jardinniere quinoa.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Plats principaux/pate-chinois.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_pate_chinois.php"><img src="assets/media/img/category/Plats principaux/pate-chinois.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Pàte chinois</h5>
                     <a href="descriptif_pate_chinois.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Plats principaux/poulet_en_sauce.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_pollet.php"><img src="assets/media/img/category/Plats principaux/poulet_en_sauce.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Poulet en sauce</h5>
                     <a href="descriptif_pollet.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -77,7 +77,7 @@
             </div>
 
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Plats principaux/saumon-wellington.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_saumon.php"><img src="assets/media/img/category/Plats principaux/saumon-wellington.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Saumon wellington</h5>
                     <a href="descriptif_saumon.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>

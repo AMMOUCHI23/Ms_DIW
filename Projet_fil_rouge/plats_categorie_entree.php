@@ -19,7 +19,7 @@
     <div class="container text-center ">
         <div class="row justify-content-center ">
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg" class="card-img-top" alt="...">
+               <a href="descriptif_brochette_saumon.php"> <img src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Brochettes de saumon</h5>
                     <a href="descriptif_brochette_saumon.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Entrées/courges-grillees-ricotta.jpg" class="card-img-top  alt="...">
+                <a href="descriptif_courges_grillee.php"><img src="assets/media/img/category/Entrées/courges-grillees-ricotta.jpg" class="card-img-top"  alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">courges grillées ricotta</h5>
                     <a href="descriptif_courges_grillee.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Entrées/rouleaux-saumon.jpg" class="card-img-top "  alt="...">
+                <a href="descriptif_rouleau_au_saumon.php"><img src="assets/media/img/category/Entrées/rouleaux-saumon.jpg" class="card-img-top "  alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Rouleau au saumon</h5>
                     <a href="descriptif_rouleau_au_saumon.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Entrées/salade_d'hiver.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_salade_hiver.php"><img src="assets/media/img/category/Entrées/salade_d'hiver.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">salade d'hiver</h5>
                     <a href="descriptif_salade_hiver.php"><small class="card-text " id="prix_salade_d'hiver">Cliquer pour plus de détails</small> </a>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Entrées/tarte-tatin-de-tomates.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_tarte_tomate.php"><img src="assets/media/img/category/Entrées/tarte-tatin-de-tomates.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">tarte tatin de tomate</h5>
                     <a href="descriptif_tarte_tomate.php"><small class="card-text " id="tarte-tatin-de-tomates">Cliquer pour plus de détails</small> </a>
@@ -76,7 +76,7 @@
             </div>
 
             <div class="card col-justify-content  col-sm-6 col-md-4 my-4">
-                <img src="assets/media/img/category/Entrées/tartines-a-la-courgette.jpg" class="card-img-top" alt="...">
+                <a href="descriptif_tartine_courgette.php"><img src="assets/media/img/category/Entrées/tartines-a-la-courgette.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">tartine à la courgette</h5>
                     <a href="descriptif_tartine_courgette.php"><small class="card-text " id="prix_boulettes_farcies">Cliquer pour plus de détails</small> </a>
