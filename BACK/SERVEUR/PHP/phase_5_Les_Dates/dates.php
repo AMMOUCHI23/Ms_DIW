@@ -12,7 +12,7 @@
     echo "Le nombre de seconde écoulé depuis le 10/01/1970 est: ".time()." secondes <br>";
 
     //Afficher la date hd'aujourd'hui et l'heure
-    echo "Nous sommes le ".date("d/m/Y   H:i:s <br>");
+    echo "Nous sommes le ".date("Y/m/d   H:i:s <br>");
 
     echo"<br>";
     // la fonction strtotime()
