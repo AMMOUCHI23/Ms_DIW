@@ -1,20 +1,3 @@
-<?php
-foreach ($_POST as $key => $value) {
-  ${$key} = $value;
-}
-
-if (isset($envoyer)) {
-    
-    $fp = fopen("use.txt", "a+");
-    fputs($fp, $nom . "," . $prenom . "," . $email . "," . $telephone .",".$text  ."\n");
-   
-    $users=date("Y/m/d H:i:s");
-    rename("use.txt",$users.".txt");
-  }
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -23,19 +6,31 @@ if (isset($envoyer)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Restaurant au cœur d'Amiens, commander en ligne parmi une large sélection de plats, manger sur place ou à emporter. Des Menus variés pour le plaisir des petis et de grands dans votre réstaurant The District">
     <title>Réstaurant The District</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style1.css">
 </head>
 
 <body>
+    <?php
+    foreach ($_POST as $key => $value) {
+        ${$key} = $value;
+    }
+
+    if (isset($envoyer)) {
+
+        $fp = fopen((date("Y-m-d-H-i-s") . ".txt"), "a+");
+        fputs($fp, $nom . "," . $prenom . "," . $email . "," . $telephone . "," . $text);
+    }
 
 
-<?php
-  require_once("header.php");
-  ?>
-    
-    <form method="post" action="" name="contact" class="row g-3 my-5 ms-3">
+    ?>
+
+
+    <?php
+    require_once("header.php");
+    ?>
+
+    <form method="post" action="" name="contact" id="contact" class="row g-3 my-5 ms-3">
         <div class="row justify-content-center">
             <div class="col-md-4 my-3">
                 <label for="inputNom" class="form-label">Nom<span class="text-danger">*</span></label>
@@ -66,8 +61,7 @@ if (isset($envoyer)) {
         <div class="row  justify-content-center">
             <div class="col-md-8 my-3">
                 <label for="text" class="">Votre demande<span class="text-danger">*</span></label>
-                <textarea class="form-control" placeholder="Votre demande..." name="text" id="floatingTextarea2"
-                    style="height: 100px"></textarea>
+                <textarea class="form-control" placeholder="Votre demande..." name="text" id="floatingTextarea2" style="height: 100px"></textarea>
                 <p id="text_inv" style="color: red;"></p>
                 <p id="obligatoire"> <span class="text-danger">*</span> Champs Obligatoires</p>
             </div>
@@ -75,22 +69,22 @@ if (isset($envoyer)) {
         </div>
         <div class="row justify-content-end">
             <div class="col-3 mt-3">
-                <button type="submit" name="envoyer"id="envoi" class="btn btn-primary btn-lg">Envoyer</button>
+                <button type="submit" name="envoyer" id="envoi" class="btn btn-primary btn-lg">Envoyer</button>
 
             </div>
         </div>
     </form>
 
     <?php
-  require_once("footer.php");
-  ?>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-        <script src="assets/javascript/script.js"></script>
-       
-   
+    require_once("footer.php");
+
+    ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/script.js"></script>
+
+
 </body>
 
 </html>
