@@ -1,3 +1,20 @@
+<?php
+foreach ($_POST as $key => $value) {
+  ${$key} = $value;
+}
+
+if (isset($envoyer)) {
+    
+    $fp = fopen("use.txt", "a+");
+    fputs($fp, $nom . "," . $prenom . "," . $email . "," . $telephone .",".$text  ."\n");
+   
+    $users=date("Y/m/d H:i:s");
+    rename("use.txt",$users.".txt");
+  }
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -12,24 +29,13 @@
 </head>
 
 <body>
-<?php
-foreach ($_POST as $key => $value) {
-  ${$key} = $value;
-}
 
-if (isset($envoyer)) {
-  $users=date("Y/m/d H:i:s");
-    $fp = fopen("$users.txt", "a+");
-    fputs($fp,$nom."," . $prenom . "," . $email . "," . $telephone."," .$text);
-  }
-
-?>
 
 <?php
   require_once("header.php");
   ?>
     
-    <form method="post" action="$users.txt" name="contact" class="row g-3 my-5 ms-3">
+    <form method="post" action="" name="contact" class="row g-3 my-5 ms-3">
         <div class="row justify-content-center">
             <div class="col-md-4 my-3">
                 <label for="inputNom" class="form-label">Nom<span class="text-danger">*</span></label>
@@ -69,7 +75,7 @@ if (isset($envoyer)) {
         </div>
         <div class="row justify-content-end">
             <div class="col-3 mt-3">
-                <button type="submit" name=" envoyer"id="envoi" class="btn btn-primary btn-lg">Envoyer</button>
+                <button type="submit" name="envoyer"id="envoi" class="btn btn-primary btn-lg">Envoyer</button>
 
             </div>
         </div>
@@ -82,6 +88,8 @@ if (isset($envoyer)) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+        <script src="assets/javascript/script.js"></script>
+       
    
 </body>
 
