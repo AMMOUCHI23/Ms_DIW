@@ -20,6 +20,7 @@
 
         $fp = fopen((date("Y-m-d-H-i-s") . ".txt"), "a+");
         fputs($fp, $nom . "," . $prenom . "," . $email . "," . $telephone . "," . $text);
+        fclose((date("Y-m-d-H-i-s") . ".txt"));
     }
 
 
@@ -53,7 +54,7 @@
             </div>
             <div class="col-md-4 my-3">
                 <label for="inputTelephone" class="form-label">Téléphone<span class="text-danger">*</span></label>
-                <input type="tel" class="form-control" name="telephone" id="inputTelephone" placeholder="06 80 80 80 80">
+                <input type="tel" class="form-control" name="telephone" id="inputTelephone" placeholder="0680808080">
                 <p id="telephone_inv" style="color: red;"></p>
             </div>
         </div>

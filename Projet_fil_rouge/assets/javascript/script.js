@@ -7,58 +7,55 @@ document.getElementById("contact").addEventListener("submit", function (e) {
 	const telephone_v=/^0{1}[1-9]{9}$/;
 	const text_v=/^[a-zA-Z\s]{1,300}$/;
 	
-	if (nom_v.test(this["nom"].value.trim() )== false) {
+	if (!nom_v.test(this["nom"].value)) {
 		e.preventDefault();
 		document.getElementById("nom_inv").innerHTML = "Nom invalide"
-	}if (nom_v.test(this["nom"].value.trim() ) )
+	}if (nom_v.test(this["nom"].value ) )
 	{
 			document.getElementById("nom_inv").innerHTML = "";
 		
 	}
-	if (nom_v.test(this["prenom"].value.trim() )== false)
+	if (!nom_v.test(this["prenom"].value))
 	 {
 		e.preventDefault();
 		document.getElementById("prenom_inv").innerHTML = "Prénom invalide";
 	}
-	if (nom_v.test(this["prenom"].value.trim() ))
+	if (nom_v.test(this["prenom"].value))
 	 {
 		document.getElementById("prenom_inv").innerHTML = "";
 	}
-	if (email_v.test(this["email"].value.trim().split(" ").join("") )== false) {
+	if (!email_v.test(this["email"].value)) {
 		e.preventDefault();
 			document.getElementById("email_inv").innerHTML = "Email invalide";
 		}
-	if(email_v.test(this["email"].value.trim().split(" ").join("") ))
+	if(email_v.test(this["email"].value))
 		{
 			document.getElementById("email_inv").innerHTML = "";
 		}
-		if (telephone_v.test(this["telephone"].value.trim().split(" ").join("") )== false) {
+		if (!telephone_v.test(this["telephone"].value)) {
 			e.preventDefault();
 			document.getElementById("telephone_inv").innerHTML = "Numéro de téléphone invalide";
 			
 		}
-		if (telephone_v.test(this["telephone"].value.trim().split(" ").join("") )){
+		if (telephone_v.test(this["telephone"].value )){
 			
 			document.getElementById("telephone_inv").innerHTML = "";
 			
 		}
 
-		if (text_v.test(this["text"].value.trim() )== false) {
+		if (!text_v.test(this["text"].value)) {
 			e.preventDefault();
 			document.getElementById("text_inv").innerHTML = "Le champs est requis ";
 		}
-		if (text_v.test(this["text"].value.trim() )) {
+		if (text_v.test(this["text"].value )) {
 			document.getElementById("text_inv").innerHTML = "";
+			alert("Le formulaire est rempli avec succé!.\nCliquer sur ok pour confirmer l'envoi.")
 		}
 		
 });
 
 	
    /* 
-	
-
-  
-	
 	
 	if(document.getElementById("nom_inv").innerHTML == "" && document.getElementById("prenom_inv").innerHTML == "" && document.getElementById("email_inv").innerHTML == "" 
 	&& document.getElementById("telephone_inv").innerHTML == "" && document.getElementById("text_inv").innerHTML == ""){
