@@ -27,7 +27,7 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link active" aria-current="page" href="categorie.php">Catégorie</a>
+                        <a class="nav-link active" aria-current="page" href="assets/php/categorie.php">Catégorie</a>
                     </li>
                     <li class="nav-item px-2 ">
                         <div class="dropdown">
@@ -36,17 +36,17 @@
                             </a>
 
                             <ul class="dropdown-menu bg-danger-subtle">
-                                <li><a class="dropdown-item" href="plats_categorie_entree.php">Entrées</a></li>
-                                <li><a class="dropdown-item" href="plats_catégorie_plats_principaux.php">Plats principaux</a></li>
-                                <li><a class="dropdown-item" href="plats_categorie_sandwich.php">sanduichs</a></li>
-                                <li><a class="dropdown-item" href="plats_categorie_soupes.php">Soupes</a></li>
-                                <li><a class="dropdown-item" href="plats_categorie_desserts.php">Desserts</a></li>
-                                <li><a class="dropdown-item" href="plats_categorie_boissons.php">Boissons</a></li>
+                                <li><a class="dropdown-item" href="assets/php/plats_categorie_entree.php">Entrées</a></li>
+                                <li><a class="dropdown-item" href="../assets/php/plats_catégorie_plats_principaux.php">Plats principaux</a></li>
+                                <li><a class="dropdown-item" href="../assets/php/plats_categorie_sandwich.php">sanduichs</a></li>
+                                <li><a class="dropdown-item" href="../assets/php/plats_categorie_soupes.php">Soupes</a></li>
+                                <li><a class="dropdown-item" href="../assets/php/plats_categorie_desserts.php">Desserts</a></li>
+                                <li><a class="dropdown-item" href="../assets/php/plats_categorie_boissons.php">Boissons</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link active" aria-current="page" href="contact.php">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="assets/php/contact.php">Contact</a>
                     </li>
                     <!--Ajouter une icone panier-->
                     <li class="nav-item px-2">
@@ -84,11 +84,11 @@
         <div class="container text-center">
             <div class="row justify-content-center ">
                 <div class="col-justify-content  col-sm-6 col-md-4 my-4 survol">
-                    <a href="plats_categorie_entree.php"> <img id="cat1" class="img-fluid rounded " src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg" width="300px" height="200px" alt="image catégorie des entrées" title="image catégorie des entrées"></a>
+                    <a href="assets/php/plats_categorie_entree.php"> <img id="cat1" class="img-fluid rounded " src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg" width="300px" height="200px" alt="image catégorie des entrées" title="image catégorie des entrées"></a>
                     <p class="categorie ">Nos Entrées</p>
                 </div>
                 <div class="col-12  col-sm-6  col-md-4 my-4 survol ">
-                    <a href="plats_catégorie_plats_principaux.php"><img class="img-fluid rounded " id="cat2" src="assets/media/img/category/Plats principaux/jardinniere-quinoa.jpg" width="300px" height="200px" alt="image catégorie des plats principaux" title="image catégorie des plats principaux"></a>
+                    <a href="assets/php/plats_catégorie_plats_principaux.php"><img class="img-fluid rounded " id="cat2" src="assets/media/img/category/Plats principaux/jardinniere-quinoa.jpg" width="300px" height="200px" alt="image catégorie des plats principaux" title="image catégorie des plats principaux"></a>
                     <p class="categorie ">Nos Plats Principaux</p>
                 </div>
                 <!-- <div class="col-12  col-sm-6  col-md-4 my-4 survol ">
@@ -98,25 +98,25 @@
         
             </div>-->
                 <div class="col-12 col-sm-6  col-md-4 my-4 survol ">
-                    <a href="plats_categorie_sandwich.php"><img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg" width="300px" height="200px" alt="image catégorie des sandwichs " title="image catégorie des sandwichs"></a>
-                    <p class="categorie">Nos Sanduichs</p>
+                    <a href="assets/php/plats_categorie_sandwich.php"><img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg" width="300px" height="200px" alt="image catégorie des sandwichs " title="image catégorie des sandwichs"></a>
+                    <p class="categorie">Nos Sandwichs</p>
                 </div>
                 <div class="container col-12 col-sm-6 col-md-4 my-4  survol">
-                    <a href="plats_categorie_soupes.php"> <img class="img-fluid rounded position-relative " id="cat4" src="assets/media/img/category/Soupes et potages/potage-de-carottes.jpg" width="300px" height="200px" alt="image catégorie des soupes" title="image catégorie des soupes"></a>
+                    <a href="assets/php/plats_categorie_soupes.php"> <img class="img-fluid rounded position-relative " id="cat4" src="assets/media/img/category/Soupes et potages/potage-de-carottes.jpg" width="300px" height="200px" alt="image catégorie des soupes" title="image catégorie des soupes"></a>
                     <p class="categorie">Nos Soupes</p>
 
                 </div>
                 <div class="col-12 col-sm-6  col-md-4 my-4 survol">
-                    <a href="plats_categorie_desserts.php"><img class="img-fluid rounded " id="cat5" src="assets/media/img/category/Desserts/creme_glacee.jpg" width="300px" height="200px" alt="image catégorie des desserts" title="image catégorie des desserts"></a>
+                    <a href="assets/php/plats_categorie_desserts.php"><img class="img-fluid rounded " id="cat5" src="assets/media/img/category/Desserts/creme_glacee.jpg" width="300px" height="200px" alt="image catégorie des desserts" title="image catégorie des desserts"></a>
                     <p class="categorie">Nos Desserts</p>
                 </div>
                 <div class="col-12 col-sm-6  col-md-4 my-4 survol">
-                    <a href="plats_categorie_boissons.php"> <img class="img-fluid rounded " id="cat6" src="assets/media/img/category/Boissons et coocktails/cafe-flambé.jpg" width="300px" height="200px" alt="image catégorie boissons" title="image catégorie des boissons"></a>
+                    <a href="assets/php/plats_categorie_boissons.php"> <img class="img-fluid rounded " id="cat6" src="assets/media/img/category/Boissons et coocktails/cafe-flambé.jpg" width="300px" height="200px" alt="image catégorie boissons" title="image catégorie des boissons"></a>
                     <p class="categorie">Nos Boissons</p>
                 </div>
                 <div class="description text-white redressed   text-capitalize fst-italic  justify-content-center align-items-center col-12  col-md-5 my-4 py-5">
                     <h1 class="fs-2 bg-danger" id="change-position">The District</h1>
-                    <h3 >Au cœur d'Amiens, notre Restaurant Gastronomique propose une cuisine raffinée, élaborée à partir de produits locaux et de saison. </h3>
+                    <h3>Au cœur d'Amiens, notre Restaurant Gastronomique propose une cuisine raffinée, élaborée à partir de produits locaux et de saison. </h3>
 
                 </div>
 
@@ -129,10 +129,10 @@
                             <img src="assets/media/img/category/Soupes et potages/potage_de_petit_pois.jpg" class="img-fluid rounded d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets\media\img\category\Desserts\tarte-arachides.jpg" class="img-fluid rounded d-block w-100" alt="...">
+                            <img src="assets/media/img/category/Desserts/tarte-arachides.jpg" class="img-fluid rounded d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets\media\img\category\Entrées\courges-grillees-ricotta.jpg" class="img-fluid rounded d-block w-100" alt="...">
+                            <img src="assets/media/img/category/Entrées/courges-grillees-ricotta.jpg" class="img-fluid rounded d-block w-100" alt="...">
                         </div>
 
                     </div>
@@ -145,7 +145,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                
+
 
             </div>
         </div>
@@ -163,7 +163,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
- 
+
 
 </body>
 
