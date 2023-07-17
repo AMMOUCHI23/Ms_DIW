@@ -2,13 +2,13 @@
 foreach ($_POST as $key => $value) {
   ${$key} = $value;
 }
-
+$erreur="";
 if (isset($connecter)) {
   if (!preg_match("/^[a-zA-Z \-éèê]+$/", $nom)) {
     $erreur = "Nom non valide";
   } elseif (!preg_match("/^[a-zA-Z \-éèê.@]+$/", $prenom)) {
     $erreur = "Prénom non valide";
-  } elseif (!preg_match("/^[a-zA-Z0-9.-_]+@{1}[a-zA-Z_-]+[.]{1}[a-zA-Z]{2,3}$/",$email)) {
+  } elseif (!preg_match("/^[a-zA-Z0-9.\-_]+@{1}[a-zA-Z_-]+[.]{1}[a-zA-Z]{2,3}$/",$email)) {
     $erreur = "email non valide";
   } elseif (!preg_match("/^(?=.* ?[A-Z])(?=.* ?[a-z])(?=.* ?[0-9]).{8,15}$/", $pass)) {
     $erreur = "Mot de passe non valide";
@@ -64,9 +64,9 @@ if (isset($connecter)) {
       <div class="col-12 mx-3 mx-3 mt-3">
         <button type="submit" class="btn btn-lg btn-primary" name="connecter" value="">se connecter</button>
       </div>
-      <?php if (!empty($erreur)) { ?>
-        <div class="mx-3" id="message" style="color: red;"><?php echo $erreur ?></div>
-      <?php } ?>
+      
+        <div class="mx-3" id="message" style="color: red;"><?php echo $erreur; ?></div>
+      
     </div>
     </div>
   </form>

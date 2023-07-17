@@ -1,9 +1,9 @@
 <?php
 session_start();
-$login=$_POST["email"];
-$pass=$_POST["pass"];
-$connecter=$_POST["connecter"];
-
+$login=@$_POST["email"];
+$pass=@$_POST["pass"];
+$connecter=@$_POST["connecter"];
+$erreur="";
 if(isset($connecter)){
   if($login=="toto@hotmail.com" && $pass=="afpa"){
       $_SESSION["auth"]="ok";
@@ -39,7 +39,7 @@ if(isset($connecter)){
     <form action="" method="post" class="row g-3">
   <div class="col-md-3 mx-3 mt-5">
     <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" name="email" id="inputEmail4">
+    <input type="email" class="form-control" name="email" id="inputEmail4" >
   </div>
   <div class="col-md-3 mx-3 mt-5">
     <label for="inputPassword4" class="form-label">Mot de passe</label>
@@ -49,10 +49,9 @@ if(isset($connecter)){
   <div class="col-12 mx-3">
     <button type="submit" class="btn btn-primary" name="connecter" value="">se connecter</button>
   </div>
-  <?php if (!empty($erreur)) { ?>
-        <div class="mx-3" id="message" style="color: red;"><?php echo $erreur ?></div>
-      <?php } ?>
-  </div>
+  
+        <div class="mx-3" id="message" style="color: red;"><?php echo $erreur; ?></div>
+  
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
