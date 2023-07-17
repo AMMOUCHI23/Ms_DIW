@@ -60,6 +60,8 @@ $tableau = array("a" => "Lundi",
                  "d" => "Jeudi",
                  "e" => "Vendredi"
             ); 
+            print_r(array_keys($tableau));
+            echo "<br>";
 asort($tableau);
 
 foreach($tableau as $cle => $valeur) 
@@ -84,6 +86,8 @@ echo"<br>";
 foreach ($tab as $key => $value) {
     echo$value."\t";
 }
+echo"<br>";
+$arr = array("john", "paul", "georges", "ringo"); echo join(",",$arr);
 ?>
 
     

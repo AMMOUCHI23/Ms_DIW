@@ -34,6 +34,12 @@ while (!feof($fp))
     foreach ($lines as $line => $value) {
         echo $value."<br>";
     }
+    $file="essaie.txt";
+    $newfile=$file."bac";
+    if(!copy($file,$newfile)){
+        echo "la copie de ".$file." à echouer!!";
+
+    }else{ echo "le fichier été recopié avec succé";}
 
     ?>
 
