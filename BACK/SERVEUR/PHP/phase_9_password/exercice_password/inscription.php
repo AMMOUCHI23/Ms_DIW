@@ -1,4 +1,7 @@
 <?php
+$nom=@$_POST["nom"];
+$prenom=@$_POST["prenom"];
+$email=@$_POST["email"];
 foreach ($_POST as $key => $value) {
   ${$key} = $value;
 }
@@ -17,7 +20,7 @@ if (isset($connecter)) {
   } else {
     $passHash = password_hash($pass, PASSWORD_DEFAULT);
     $fp = fopen("users.txt", "a+");
-    fputs($fp, $nom . "," . $prenom . "," . $email . "," . $passHash . "\n");
+    fputs($fp, $nom . "," .$prenom. "," .$email. "," .$passHash. "\n");
   }
 }
 
@@ -39,18 +42,18 @@ if (isset($connecter)) {
     <div class="row g-3">
       <div class="col-md-3 mx-3 mt-5">
         <label for="inputNom4" class="form-label">Nom*</label>
-        <input type="text" class="form-control" name="nom" id="inputNom" value="<?php echo @$nom ?>" placeholder="Entrer votre nom">
+        <input type="text" class="form-control" name="nom" id="inputNom"  placeholder="Entrer votre nom">
       </div>
       <div class="col-md-3 mx-3 mt-5">
         <label for="inputPrenom4" class="form-label">Prénom*</label>
-        <input type="text" class="form-control" name="prenom" id="inputPrenom" value="<?php echo @$prenom ?>" placeholder="Entrer votre prénom">
+        <input type="text" class="form-control" name="prenom" id="inputPrenom"  placeholder="Entrer votre prénom">
       </div>
 
     </div>
     <div class="row g-3">
       <div class="col-md-3 mx-3 mt-5">
         <label for="inputEmail4" class="form-label">Email*</label>
-        <input type="email" class="form-control" name="email" id="inputEmail4" value="<?php echo @$email ?>" placeholder="toto@hotmail.com">
+        <input type="email" class="form-control" name="email" id="inputEmail4"  placeholder="toto@hotmail.com">
       </div>
       <div class="col-md-3 mx-3 mt-5">
         <label for="inputPassword4" class="form-label">Mot de passe*</label>
@@ -70,6 +73,9 @@ if (isset($connecter)) {
     </div>
     </div>
   </form>
+  <div class="col-12 mx-3 mx-3 mt-3">
+    <label for="">Pour se connecter à votre compte cliquez</label>
+    <a href="login.php">ici </a></div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

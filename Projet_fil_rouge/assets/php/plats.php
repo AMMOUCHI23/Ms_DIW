@@ -20,37 +20,37 @@
         <div class="row justify-content-center ">
             <div class="col-justify-content  col-sm-6 col-md-4 my-4">
                 <img id="plat1" class="img-fluid rounded "
-                    src="../media/img/category/Plats principaux/boulettes_farcies.jpg" width="300px" height="200px"
+                    src="../media/img/category/Plats_principaux/boulettes_farcies.jpg" width="300" height="200"
                     alt="image catégorie des entrées" title="image catégorie des entrées">
                     <p class="categorie1 ">Boulettes farcies</p>
             </div>
             <div class="col-12  col-sm-6  col-md-4 my-4">
                 <img class="img-fluid rounded " id="plats2"
-                    src="../media/img/category/Plats principaux/courgettes-farcies-au-riz-sauvage.jpg" width="300px"
-                    height="200px" alt="image catégorie des plats principaux"
+                    src="../media/img/category/Plats_principaux/courgettes-farcies-au-riz-sauvage.jpg" width="300"
+                    height="200" alt="image catégorie des plats principaux"
                     title="image catégorie des plats principaux">
                     <p class="categorie1 ">Courgettes farcies</p>
             </div>
             <div class="col-12 col-sm-6  col-md-4 my-4">
                 <img class="img-fluid rounded " id="plat3"
-                    src="../media/img/category/Plats principaux/jardinniere-quinoa.jpg" width="300px" height="200px"
+                    src="../media/img/category/Plats_principaux/jardinniere-quinoa.jpg" width="300" height="200"
                     alt="image catégorie des sandwichs" title="image catégorie des sandwichs">
                     <p class="categorie1 ">Jardinniere quinoa</p>
             </div>
             <div class="col-12 col-sm-6 col-md-4 my-4">
-                <img class="img-fluid rounded " id="plat4" src="../media/img/category/Plats principaux/pate-chinois.jpg"
-                    width="300px" height="200px" alt="image catégorie des soupes" title="image catégorie des soupes">
+                <img class="img-fluid rounded " id="plat4" src="../media/img/category/Plats_principaux/pate-chinois.jpg"
+                    width="300" height="200" alt="image catégorie des soupes" title="image catégorie des soupes">
                     <p class="categorie1 ">Pàte chinois</p>
             </div>
             <div class="col-12 col-sm-6  col-md-4 my-4">
-                <img class="img-fluid rounded " id="plat5" src="../media/img/category/Plats principaux/poulet_en_sauce.jpg"
-                    width="300px" height="200px" alt="image catégorie des desserts"
+                <img class="img-fluid rounded " id="plat5" src="../media/img/category/Plats_principaux/poulet_en_sauce.jpg"
+                    width="300" height="200" alt="image catégorie des desserts"
                     title="image catégorie des desserts">
                     <p class="categorie1 ">Poulet en sauce</p>
             </div>
             <div class="col-12 col-sm-6  col-md-4 my-4">
                 <img class="img-fluid rounded " id="plat6"
-                    src="../media/img/category/Plats principaux/saumon-wellington.jpg" width="300px" height="200px"
+                    src="../media/img/category/Plats_principaux/saumon-wellington.jpg" width="300" height="200"
                     alt="image catégorie boissons" title="image catégorie des boissons">
                     <p class="categorie1 ">Saumon wellington</p>
             </div>

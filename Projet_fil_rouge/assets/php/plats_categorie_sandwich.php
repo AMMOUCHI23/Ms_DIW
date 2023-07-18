@@ -23,8 +23,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Guédille au homard</h5>
                     <a href="descriptif_guedille.php"><small class="card-text " id="guédille_au_homard">Cliquer pour plus de détails</small> </a>
-                    <p class="card-text" id="prix_guédille_au_homard">7.50 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <p class="card-text" >7.50 €</p> 
+                    <label class="card-text H5 ">Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -36,7 +36,7 @@
                     <h5 class="card-title">Hotdog à la choucroute</h5>
                     <a href="descriptif_hotdog.php"><small class="card-text " id="hotdog_a_la_choucroute">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prx_hotdog_a_la_choucroute">6.80 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5" >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -47,7 +47,7 @@
                     <h5 class="card-title">Paté crabes</h5>
                     <a href="descriptif_pates_crabes.php"><small class="card-text " id="pate-crabe">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_pate-crabe">4.50 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 ">Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -58,7 +58,7 @@
                     <h5 class="card-title">Sandwich au poulet</h5>
                     <a href="descriptif_sandwich_poulet.php"><small class="card-text " id="sandwich-poulet">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_sandwich-poulet">6.00 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -69,7 +69,7 @@
                     <h5 class="card-title">Sandwich vietnamien</h5>
                     <a href="descriptif_sandwich_veitnamien.php"><small class="card-text " id="sandwich-vietnamien">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_sandwich-vietnamien">7.00 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -81,7 +81,7 @@
                     <h5 class="card-title">Sandwich à la viande fumée</h5>
                     <a href="descriptif_sandwich_viandefum.html"><small class="card-text " id="sandwich_en_viande_fumee">Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix-sandwich_en_viande_fumee">7.90 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -107,7 +107,7 @@
  <?php
   require_once("footer.php");
   ?>
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

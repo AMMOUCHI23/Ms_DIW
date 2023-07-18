@@ -31,7 +31,7 @@
     require_once("header.php");
     ?>
 
-    <form method="post" action="" name="contact" id="contact" class="row g-3 my-5 ms-3">
+    <form method="post"  name="contact" id="contact" class="row g-3 my-5 ms-3">
         <div class="row justify-content-center">
             <div class="col-md-4 my-3">
                 <label for="inputNom" class="form-label">Nom<span class="text-danger">*</span></label>
@@ -58,16 +58,16 @@
                 <p id="telephone_inv" style="color: red;"></p>
             </div>
         </div>
-        </div>
+        
         <div class="row  justify-content-center">
             <div class="col-md-8 my-3">
-                <label for="text" class="">Votre demande<span class="text-danger">*</span></label>
+                <label for="text" >Votre demande<span class="text-danger">*</span></label>
                 <textarea class="form-control" placeholder="Votre demande..." name="text" id="floatingTextarea2" style="height: 100px"></textarea>
                 <p id="text_inv" style="color: red;"></p>
                 <p id="obligatoire"> <span class="text-danger">*</span> Champs Obligatoires</p>
             </div>
         </div>
-        </div>
+        
         <div class="row justify-content-end">
             <div class="col-3 mt-3">
                 <button type="submit" name="envoyer" id="envoi" class="btn btn-primary btn-lg">Envoyer</button>

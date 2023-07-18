@@ -38,7 +38,7 @@
             <div class="col-md-4 my-3">
                 <label for="inputNom" class="form-label">Nom</label>
                 <input type="text" class="form-control" id="inputNom">
-                <p Ce class="c_obligatoire">Ce champs est obligatoire.</p>
+                <p class="c_obligatoire">Ce champs est obligatoire.</p>
             </div>
             <div class="col-md-4 my-3">
                 <label for="inputPrenom" class="form-label">Prénom</label>
@@ -58,14 +58,14 @@
                 <p class="c_obligatoire">Ce champs est obligatoire.</p>
             </div>
         </div>
-    </div>
+    
     <div class="row  justify-content-center">
         <div class="col-md-8 my-3">
         <label for="text" class="">Votre demande</label> 
-        <textarea class="form-control" placeholder="Votre demande..." id="floatingTextarea2" style="height: 100px"></textarea>
+        <textarea class="form-control" id="floatingTextarea2" placeholder="Votre demande..."  style="height: 100px"></textarea>
         </div>
         </div>
-    </div>
+    
     <div class="row justify-content-end" >
         <div class="col-3 mt-3" >
             <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>

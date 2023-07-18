@@ -25,7 +25,7 @@
                     <h5 class="card-title">Crème glacée</h5>
                     <a href="descriptif_creme_glacee.php"><small class="card-text " >Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_creme_glacee">3.50 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -37,7 +37,7 @@
                     <h5 class="card-title">Mousse au chocolat</h5>
                     <a href="descriptif_mousse_chocolat.php"><small class="card-text " >Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prx_mousse_au_chocolat">2.20 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -48,7 +48,7 @@
                     <h5 class="card-title">Pets de soeur</h5>
                     <a href="descriptif_pets_soeur.php"><small class="card-text " >Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_pets-de-soeur">3.30 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -59,7 +59,7 @@
                     <h5 class="card-title">Tarte-arachides</h5>
                     <a href="escriptif_tarte_arachide.php"><small class="card-text " >Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_tarte-arachides">3.90 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -70,7 +70,7 @@
                     <h5 class="card-title">Tarte-bleuets</h5>
                     <a href="descriptif_tarte_bleuet.php"><small class="card-text " >Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix_tarte-bleuets">3.00 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5">Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>
@@ -82,7 +82,7 @@
                     <h5 class="card-title">Tarte-rhubarbe</h5>
                     <a href="descriptif_tarte_rhubarbe.php"><small class="card-text " >Cliquer pour plus de détails</small> </a>
                     <p class="card-text" id="prix-tarte-rhubarbe">2.90 €</p> 
-                    <label class="card-text  " for="quantite"><h5>Quantité</h5></label>
+                    <label class="card-text h5 " >Quantité</label>
                  <input type="number" class="quantite text-center" placeholder="1" name="quantite" >
                     <a href="#" class="btn btn-primary mx-3">Ajouter au panier</a>
                 </div>

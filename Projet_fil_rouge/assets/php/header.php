@@ -1,8 +1,7 @@
-
-<nav class="p_navbar navbar  navbar-expand-lg bg-danger-subtle">
+ <nav class="p_navbar navbar  navbar-expand-lg bg-danger-subtle">
 
 <div class="container-fluid text-uppercase mx-4 py-3 ">
-    <img  src="../media/img/fond.png" class="img-responsive" id="logo">
+    <img  src="../media/img/fond.png" class="img-responsive" id="logo" alt="...">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -46,7 +45,7 @@
 
         </ul>
         <form class="d-flex" role="search">
-            <input class="form-control me-5" type="Recherche" placeholder="Rechercher..." aria-label="Search">
+            <input class="form-control me-5" type="text" placeholder="Rechercher..." aria-label="Search">
             <button class="btn btn-outline-danger" type="submit">Recherche</button>
         </form>
        
@@ -56,7 +55,7 @@
 <div class="container-fluid mt-3">
         <div class="row">
             <div class="col">
-                <img class="img-responsive img-fluid rounded" id="fond" src="../media/img/fond2.png" alt="image nom de réstaurant" titre="image nom de réstaurant">
+                <img class="img-responsive img-fluid rounded" id="fond" src="../media/img/fond2.png" alt="image nom de réstaurant" >
             </div>
         </div>
     </div>

@@ -16,7 +16,7 @@
     <nav class="p_navbar navbar  navbar-expand-lg bg-danger-subtle">
 
         <div class="container-fluid text-uppercase mx-4 py-3 ">
-            <img src="assets/media/img/fond.png" class="img-responsive" id="logo">
+            <img src="assets/media/img/fond.png" class="img-responsive" id="logo" alt="image de logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,7 +58,8 @@
 
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-5" type="Recherche" placeholder="Rechercher..." aria-label="Search">
+
+                    <input class="form-control me-5" type="text" placeholder="Rechercher..." aria-label="Search">
                     <button class="btn btn-outline-danger" type="submit">Recherche</button>
                 </form>
 
@@ -72,10 +73,7 @@
                 <div class="col">
                     <!--<img class="img-fluid rounded" id="fond" src="assets/img/fond2.png" alt="image nom de réstaurant"
                     titre="image nom de réstaurant">-->
-                    <video src="assets/media/video/nos_plats.mp4" loop class="object-fit-fill" autoplay width="100%" height="300px"></video>
-
-
-                    </video>
+                    <video src="assets/media/video/nos_plats.mp4" loop class="object-fit-fill" autoplay></video>
                 </div>
             </div>
         </div>
@@ -84,11 +82,11 @@
         <div class="container text-center">
             <div class="row justify-content-center ">
                 <div class="col-justify-content  col-sm-6 col-md-4 my-4 survol">
-                    <a href="assets/php/plats_categorie_entree.php"> <img id="cat1" class="img-fluid rounded " src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg" width="300px" height="200px" alt="image catégorie des entrées" title="image catégorie des entrées"></a>
+                    <a href="assets/php/plats_categorie_entree.php"> <img id="cat1" class="img-fluid rounded " src="assets/media/img/category/Entrées/brochettes_de_saumon.jpg" width="300" height="200" alt="image catégorie des entrées" title="image catégorie des entrées"></a>
                     <p class="categorie ">Nos Entrées</p>
                 </div>
                 <div class="col-12  col-sm-6  col-md-4 my-4 survol ">
-                    <a href="assets/php/plats_catégorie_plats_principaux.php"><img class="img-fluid rounded " id="cat2" src="assets/media/img/category/Plats principaux/jardinniere-quinoa.jpg" width="300px" height="200px" alt="image catégorie des plats principaux" title="image catégorie des plats principaux"></a>
+                    <a href="assets/php/plats_catégorie_plats_principaux.php"><img class="img-fluid rounded " id="cat2" src="assets/media/img/category/Plats_principaux/jardinniere-quinoa.jpg" width="300" height="200" alt="image catégorie des plats principaux" title="image catégorie des plats principaux"></a>
                     <p class="categorie ">Nos Plats Principaux</p>
                 </div>
                 <!-- <div class="col-12  col-sm-6  col-md-4 my-4 survol ">
@@ -98,20 +96,20 @@
         
             </div>-->
                 <div class="col-12 col-sm-6  col-md-4 my-4 survol ">
-                    <a href="assets/php/plats_categorie_sandwich.php"><img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg" width="300px" height="200px" alt="image catégorie des sandwichs " title="image catégorie des sandwichs"></a>
+                    <a href="assets/php/plats_categorie_sandwich.php"><img class="img-fluid rounded " id="cat3" src="assets/media/img/category/Sandwichs/sandwich-vietnamien.jpg" width="300" height="200" alt="image catégorie des sandwichs " title="image catégorie des sandwichs"></a>
                     <p class="categorie">Nos Sandwichs</p>
                 </div>
                 <div class="container col-12 col-sm-6 col-md-4 my-4  survol">
-                    <a href="assets/php/plats_categorie_soupes.php"> <img class="img-fluid rounded position-relative " id="cat4" src="assets/media/img/category/Soupes et potages/potage-de-carottes.jpg" width="300px" height="200px" alt="image catégorie des soupes" title="image catégorie des soupes"></a>
+                    <a href="assets/php/plats_categorie_soupes.php"> <img class="img-fluid rounded position-relative " id="cat4" src="assets/media/img/category/Soupes_potages/potage-de-carottes.jpg" width="300" height="200" alt="image catégorie des soupes" title="image catégorie des soupes"></a>
                     <p class="categorie">Nos Soupes</p>
 
                 </div>
                 <div class="col-12 col-sm-6  col-md-4 my-4 survol">
-                    <a href="assets/php/plats_categorie_desserts.php"><img class="img-fluid rounded " id="cat5" src="assets/media/img/category/Desserts/creme_glacee.jpg" width="300px" height="200px" alt="image catégorie des desserts" title="image catégorie des desserts"></a>
+                    <a href="assets/php/plats_categorie_desserts.php"><img class="img-fluid rounded " id="cat5" src="assets/media/img/category/Desserts/creme_glacee.jpg" width="300" height="200" alt="image catégorie des desserts" title="image catégorie des desserts"></a>
                     <p class="categorie">Nos Desserts</p>
                 </div>
                 <div class="col-12 col-sm-6  col-md-4 my-4 survol">
-                    <a href="assets/php/plats_categorie_boissons.php"> <img class="img-fluid rounded " id="cat6" src="assets/media/img/category/Boissons et coocktails/cafe-flambé.jpg" width="300px" height="200px" alt="image catégorie boissons" title="image catégorie des boissons"></a>
+                    <a href="assets/php/plats_categorie_boissons.php"> <img class="img-fluid rounded " id="cat6" src="assets/media/img/category/Boissons_coocktails/cafe-flambé.jpg" width="300" height="200" alt="image catégorie boissons" title="image catégorie des boissons"></a>
                     <p class="categorie">Nos Boissons</p>
                 </div>
                 <div class="description text-white redressed   text-capitalize fst-italic  justify-content-center align-items-center col-12  col-md-5 my-4 py-5">
@@ -126,7 +124,7 @@
                             <img src="assets/media/img/category/Desserts/tarte-rhubarbe.jpg" class="img-fluid rounded d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/media/img/category/Soupes et potages/potage_de_petit_pois.jpg" class="img-fluid rounded d-block w-100" alt="...">
+                            <img src="assets/media/img/category/Soupes_potages/potage_de_petit_pois.jpg" class="img-fluid rounded d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/media/img/category/Desserts/tarte-arachides.jpg" class="img-fluid rounded d-block w-100" alt="...">
@@ -152,10 +150,10 @@
 
 
 
-
         <?php
         require_once("footer.php");
         ?>
+
 
     </section>
 

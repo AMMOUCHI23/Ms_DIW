@@ -26,19 +26,19 @@
             <div class="col-md-5 mx-3">
                 <h2 class="text-primary">Pâtés de crabe </h2>
                 <h4 class="py-3">4.50 €</h4>
-                <label class="card-text text-end  " for="quantite"><h5>Quantité</h5></label>
+                <label class="card-text text-end h5 " >Quantité</label>
               <input type="number" class="text-center quantite" placeholder="1" name="quantite" >
               <h5 class="text-primary mt-3">Ingrédients :</h5>
               <p>Pains à hamburger briochés, formage, cornichons, oignon, tomate,  laitue, citron, sel et poivre du moulin.</p>
               <a href="#" class="btn btn-primary my-2">Ajouter au panier</a><br>
-              <a href="plats_categorie_sandwich.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats <command></a>
-                <a href="#" class="btn btn-lg btn-success  ms-md-5 " >Passer la commande <command></a>
+              <a href="plats_categorie_sandwich.php" class="btn btn-lg btn-primary my-5 " >Continuer les achats </a>
+                <a href="#" class="btn btn-lg btn-success  ms-md-5 " >Passer la commande </a>
             </div>
         </div>
       </div>
 
 
-    </div>
+    
     <div class="container d-none">
         <div class="row text-center my-5 ">
             <div class="col-6">
