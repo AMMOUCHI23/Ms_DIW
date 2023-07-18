@@ -3,13 +3,13 @@ session_start();
 foreach ($_POST as $key => $value) {
   ${$key} = $value;
 }
-
+$erreur="";
 if (isset($connecter)) {
   $fp = fopen("users.txt", "r");
   while (!feof($fp)) {
     $str = fgets($fp);
     $tab = explode(",", $str);
-    if ($email == $tab[2] &&  password_verify($pass, substr($tab[3], 0, 60))) {
+    if ($email == @$tab[2] &&  password_verify($pass, substr(@$tab[3], 0, 60))) {
       $_SESSION["auth"] = "ok";
       $_SESSION["nomPrenom"] = $tab[0] . "\t" . $tab[1];
       header("Location:script.php");
@@ -47,7 +47,7 @@ if (isset($connecter)) {
       <button type="submit" class="btn btn-primary" name="connecter" value="">se connecter</button>
     </div>
 
-    <div class="mx-3" id="message" style="color: red; "><?php echo $erreur ?></div>
+    <div class="mx-3" id="message" style="color: red; "><?php echo $erreur; ?></div>
 
   </form>
 
