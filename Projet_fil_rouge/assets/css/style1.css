@@ -10,7 +10,7 @@
 }
 .nav-item{
     border-bottom: 1px solid transparent;
-    transition: padding-bottom .5s ease-in-out, bordercolor .3s ease ;
+    transition: padding-bottom .10s ease-in-out, bordercolor .3s ease ;
 }
 .nav-item:hover{
   padding-bottom: 5px; ;

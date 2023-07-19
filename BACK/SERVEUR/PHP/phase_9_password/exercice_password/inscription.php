@@ -19,7 +19,7 @@ if (isset($connecter)) {
   } elseif (!preg_match("/^(?=.* ?[A-Z])(?=.* ?[a-z])(?=.* ?[0-9]).{8,15}$/", $pass)) {
     $erreur = "Mot de passe non valide";
     // vérifier si la confirmtion de mot de passe est identique avec le mot de passe
-  } elseif (!preg_match("#".$cpass."#",$pass)) {
+  } elseif (!preg_match("#" . $cpass . "#", $pass)) {
     $erreur = "Mots de passe non identiques";
   } else {
     // cryptage du mot de passe
@@ -27,20 +27,41 @@ if (isset($connecter)) {
     //ouvrir le fichier users.txt pour la lécture et écriture
     $fp = fopen("users.txt", "a+");
     //lire tout le fichier users.txt
-    $fj = fgets($fp, 5000);
+    $fj = fgets($fp, 400);
     //vérifier si le nom et le prenom existent dans le fichier users.txt
-    if(preg_match("#".$nom."#", $fj) && preg_match("#".$prenom."#", $fj)){
+    if (preg_match("#" . $nom . "#", $fj) && preg_match("#" . $prenom . "#", $fj)) {
       $erreur = "Un compte existe déja ce nom et prenom";
     }
     //vérifier si l'adresse mail existe dans le fichier users.txt
-    else if (preg_match("#".$email."#", $fj)) {
+    else if (preg_match("#" . $email . "#", $fj)) {
       $erreur = "Un compte existe déja avec cette adresse mail";
-      //enregestrer le nom, prenom, email et le mot de passe dans le fichier users.txt
-    } else {
+    }
+    //enregestrer le nom, prenom, email et le mot de passe dans le fichier users.txt
+    else {
       fputs($fp, $nom . "," . $prenom . "," . $email . "," . $passHash . "\n");
     }
   }
 }
+/*while (!feof($fp)) {
+    $fj = fgets($fp, 400);
+    //vérifier si le nom et le prenom existent dans le fichier users.txt
+    if (preg_match("#" . $nom . "#", $fj) && preg_match("#" . $prenom . "#", $fj)) {
+      $erreur = "Un compte existe déja ce nom et prenom";
+      fclose("users.txt");
+      break;
+    }
+    //vérifier si l'adresse mail existe dans le fichier users.txt
+    else if (preg_match("#" . $email . "#", $fj)) {
+      $erreur = "Un compte existe déja avec cette adresse mail";
+      break;
+      //enregestrer le nom, prenom, email et le mot de passe dans le fichier users.txt
+
+    }
+    else {
+      fputs($fp, $nom . "," . $prenom . "," . $email . "," . $passHash . "\n");
+      
+    }
+  }*/
 
 ?>
 

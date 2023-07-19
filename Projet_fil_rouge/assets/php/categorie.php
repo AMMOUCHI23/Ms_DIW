@@ -42,7 +42,7 @@
                     <p class="categorie1 ">Nos Soupes</p>
             </div>
             <div class="col-12 col-sm-6  col-md-4 my-4  survol">
-                <a href="plats_categorie_desserts.php"><img class="img-fluid rounded " src="..//media/img/category/Desserts/creme_glacee.jpg"
+                <a href="plats_categorie_desserts.php"><img class="img-fluid rounded " src="../media/img/category/Desserts/creme_glacee.jpg"
                     width="300" height="200" alt="image catégorie des desserts"
                     title="image catégorie des desserts"></a>
                     <p class="categorie1 ">Nos Desserts</p>
@@ -60,7 +60,7 @@
     <div class="container d-none  d-md-block ">
         <div class="row text-center my-5 ">
             <div class="col-6">
-                <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Précédent</button></a>
+                <a href="../../index.php"><button type="button" class="btn btn-primary btn-lg">Précédent</button></a>
             </div>
             <div class="col-6">
                 <button type="button" class="btn btn-primary btn-lg">Suivant</button>
