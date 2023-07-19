@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Restaurant au cœur d'Amiens, commander en ligne parmi une large sélection de plats, manger sur place ou à emporter. Des Menus variés pour le plaisir des petis et de grands dans votre réstaurant The District">
-    <title>Réstaurant The District</title>
+    <title>Nous Contacter</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style1.css">
 </head>
 
 <body>
     <?php
+    // rendre les valeurs de tableau $_POST des variables dynamiques
     foreach ($_POST as $key => $value) {
         ${$key} = $value;
     }
-
+    //vérifier si la variable $envoyer est déclarée
     if (isset($envoyer)) {
-
+        // créer et ouvrir un nouveau fichier et le nomé par la date et l'heure de sa création
         $fp = fopen((date("Y-m-d-H-i-s") . ".txt"), "a+");
+        //enregestrer les données dans le fichier
         fputs($fp, $nom . "," . $prenom . "," . $email . "," . $telephone . "," . $text);
         
     }
@@ -26,8 +28,9 @@
 
     ?>
 
-
+    
     <?php
+    //importer le fichier header.php
     require_once("header.php");
     ?>
 
@@ -77,6 +80,7 @@
     </form>
 
     <?php
+    //importer le fichier footer.php
     require_once("footer.php");
 
     ?>
