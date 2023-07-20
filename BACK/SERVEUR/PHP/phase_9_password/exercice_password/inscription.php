@@ -1,13 +1,16 @@
 <?php
+// récupérer les données saisies par l'utilisateur
 $nom = @$_POST["nom"];
 $prenom = @$_POST["prenom"];
 $email = @$_POST["email"];
 $pass = @$_POST["pass"];
 $cpass = @$_POST["cpass"];
+//Parcourir les donnée de post
 foreach ($_POST as $key => $value) {
   ${$key} = $value;
 }
 $erreur = "";
+// tester la variable $connecter
 if (isset($connecter)) {
   //vérifier la compatibilité du nom, prenom, email et mot de passe avec leurs expressions regulieres
   if (!preg_match("/^[a-zA-Z \-éèê]+$/", $nom)) {

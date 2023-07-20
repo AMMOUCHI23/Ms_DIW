@@ -1,7 +1,9 @@
 <?php
+//démarer la session
 session_start();
-
+//tester la session auth
 if(@$_SESSION["auth"]!="ok"){
+    //se dériger à la page login.php
     header("Location:login.php");
     
     

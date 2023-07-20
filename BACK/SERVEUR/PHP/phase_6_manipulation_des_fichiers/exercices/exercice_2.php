@@ -18,12 +18,14 @@
         
         </tr>
     <?php 
-    //extraire le contenue du fichier des utilisateurs
+    //extraire le contenue du fichier des utilisateurs et les mettre dans un tableau
     $donnee=file("customers.csv");
     foreach ($donnee as $lins => $utilisateurs) 
-    {
+    {       
+            // couper chaque ligne en segments séparé avec des vérgules
             $utilisateur=explode(",",$utilisateurs);
             echo"<tr>";
+            // parcourir tout les segment et les affichés
         foreach ($utilisateur as $key => $value){
                 echo "<td>". $value."</td>";
              }

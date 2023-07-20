@@ -11,8 +11,11 @@
     <?php
     // Créer une fonction pour sécuriser le formulaire pour supprimer les espaces les slaches et les balise html de données récupérées
     function securisation($donnee){
+        // supprimer les espaces au début et à la fin
         $donnee=trim($donnee);
+        //supprimer les antislash
         $donnee=stripslashes($donnee);
+         //supprimer les balises html
         $donnee=strip_tags($donnee);
         return $donnee;
     }

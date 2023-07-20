@@ -1,20 +1,31 @@
 <?php
 //ouvrir une session
 session_start();
+//parcourir les donnée de $_POST
 foreach ($_POST as $key => $value) {
   ${$key} = $value;
 }
 $erreur="";
+// tester le variable $connecter
 if (isset($connecter)) {
+  // ouvrire le fichier users.txt pour lire
   $fp = fopen("users.txt", "r");
+  // tester si le corseur n'est pas à la fin de fichier
   while (!feof($fp)) {
+    //lire une line de fichier users.txt
     $str = fgets($fp);
+    //stocker les données de la ligne dans un tableau tab avec une séparation ","
     $tab = explode(",", $str);
+    //tester la variable email, et comparer le mot de passe taper par l'utilisateur à celui enregestré crypté
     if ($email == @$tab[2] &&  password_verify($pass, substr(@$tab[3], 0, 60))) {
+      // donner un nom et une valeur à notre session
       $_SESSION["auth"] = "ok";
+      // enregestrer la valeur de nomPrenom dans la session
       $_SESSION["nomPrenom"] = $tab[0] . "\t" . $tab[1];
+      //se dériger à la page script.php
       header("Location:script.php");
     } else {
+      //afficher l'erreur si le mail ou le mot de passe ne correspond pas
       $erreur = "L'adresse mail ou le mot de passe non valide";
     }
   }
