@@ -27,6 +27,10 @@
    catch (Exception $e){
     echo $e -> getMessage();
    }
+   // on peut ajouter un bloc finally : qui va s'exicuter qlq soit l'erreur
+   finally{
+    
+   }
     ?>
     
 </body>
