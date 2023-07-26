@@ -39,14 +39,22 @@ pour la classe dérivée, qui viennent s'ajouter à ceux et celles héritées.
          }
     }
 
-    //Crée la classe fille TrapCard
+    /*Crée la classe fille TrapCard
+     pour empecher l'héritage de la classe ou de la méthode on met le mot final 
+    avant la création de la classe ou de la méthode*/
     
     class TrapCard extends card{
+           private $_effect;
+        public function __construct($name, $description,$effect)
+        {
+            parent:: __construct($name, $description);
+            $this->_effect=$effect;
+        }
         public function hello()
         {
-            echo "Je suis une TrapCard.<br>";
-            echo $this->_name;
-
+            echo "Nom : ".$this -> _name."<br>";
+            echo "Déscription : ".$this -> _description."<br>";
+            echo "Effet : ".$this -> _effect."<br>";
         }
 
     }
@@ -54,7 +62,7 @@ pour la classe dérivée, qui viennent s'ajouter à ceux et celles héritées.
     $mycard-> hello();
      echo"<br>";
     // afficher un objet de la classe fille 
-    $mytrapcard=new TrapCard("Fosse", "Une grande fosse qui piege tous les ennemis" );
+    $mytrapcard=new TrapCard("Fosse", "Une grande fosse...","Détruit tous les ennemis sur le terrain");
     $mytrapcard-> hello();
     ?>
 </body>
