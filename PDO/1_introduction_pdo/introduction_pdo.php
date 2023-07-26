@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    // afficher toutes les erreures
     ini_set("display_errors",1);
     /* 
     La PDO (PHP Data Object) est une interface qui permet de travailler et de manipuler une base de données 
@@ -15,8 +16,8 @@
     */
      
     $DB_DSN= "mysql:host=localhost;dbname=test";
-    $DB_USER= "ROOT";
-    $DB_PASS= "";
+    $DB_USER= "root";
+    $DB_PASS= "Maformation";
 
     try
     {
